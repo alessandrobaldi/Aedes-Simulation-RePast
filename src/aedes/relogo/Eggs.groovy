@@ -16,7 +16,7 @@ class Eggs extends ReLogoTurtle {
 	def step(){
 		days++
 		if(days==20) {
-			hatchMosquitos(10)
+			hatchMosquitos(10)//10 mosquitos born after 20 days
 			die()
 		}
 	}

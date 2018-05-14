@@ -37,14 +37,15 @@ class Mosquito extends ReLogoTurtle {
 			{
 				hatchEggss(1)
 			}
-			if(housecanfly.trap==true)
+			if(housecanfly.trap==true)//mosquito die and agent is called
 			{
 				die()
+				hatchAgentss(1)
 			}
 		}
 		else
 		{
-			die()
+			die()//mosquito die after 38 days
 		}
 	}
 }

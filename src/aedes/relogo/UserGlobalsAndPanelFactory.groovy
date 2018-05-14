@@ -5,8 +5,8 @@ import repast.simphony.relogo.factories.AbstractReLogoGlobalsAndPanelFactory
 public class UserGlobalsAndPanelFactory extends AbstractReLogoGlobalsAndPanelFactory{
 	public void addGlobalsAndPanelComponents(){
 		
-		addSliderWL("numHouses", "Number of Houses", 1, 1, 100, 50)
-		addSliderWL("numMosquitos", "Number of Mosquitoes", 1, 1, 100, 50)
+		//addSliderWL("numHouses", "Number of Houses", 1, 1, 100, 50)
+		//addSliderWL("numMosquitos", "Number of Mosquitoes", 1, 1, 100, 50)
 		
 		
 		/**

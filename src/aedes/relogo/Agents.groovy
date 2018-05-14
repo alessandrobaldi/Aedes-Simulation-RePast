@@ -16,16 +16,20 @@ import repast.simphony.relogo.schedule.Go
 import repast.simphony.relogo.schedule.Setup
 
 class Agents extends ReLogoTurtle {
+	def calling = 0
 	def step(){
-		def calling = 0
 		calling++
-		if(calling==4)
+		if(calling==3)
 		{
-			def counting = 3
-			while(counting>0)
+			def counting = 5
+			agentssHere().removeAll()
+			while(counting>0)//visiting houses and removing eggs/mosquitos/foci
 			{
 			def houseat = oneOf(housesHere())
+			if(houseat!=null)
+			{
 			desinfect(houseat)
+			}
 			mosquitosHere().removeAll()
 			eggssHere().removeAll()
 			def next = maxOneOf(neighbors()){

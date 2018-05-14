@@ -17,6691 +17,7147 @@ import aedes.ReLogoObserver;
 class UserObserver extends ReLogoObserver{
 @Setup
 def setup(){
-	clearAll()
-	setDefaultShape(House, "house")
-	/*createHouses(numHouses){
-		setxy(randomXcor(),randomYcor())
-	}*/
-clearAll()
+	clearAll()//creating scenario here
 setDefaultShape(House, "house")
 createHouses(1){
-setxy(0.0,0.0)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(31.11999999987347,49.19999999941638)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(32.5600000000037,-43.000000005122274)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(32.10999999971875,-43.700000006197115)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(28.04999999987956,-50.00000000165983)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(27.579999999716165,-24.600000003260902)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(15.84999999977299,-42.600000000447835)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(12.689999999793145,-48.300000003109744)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(0.9599999998499698,-66.00000000389628)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-0.029999999995311555,-3.500000005374204)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(0.0,0.0)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-32.26000000005058,-623.3000000008815)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-31.020000000125947,-718.1000000002769)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-20.41000000012616,-702.3000000003776)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-21.660000000167656,-607.3999999998136)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-32.26000000005058,-623.3000000008815)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(242.5399999999911,-562.0000000021719)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(235.99999999994736,-515.2000000023804)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(244.1999999998501,-384.9000000002434)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(250.73999999989383,-431.70000000003483)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(242.5399999999911,-562.0000000021719)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(183.35999999976593,-553.7000000046532)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(187.37999999984822,-494.70000000439995)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(184.66000000003646,-474.6000000039885)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(180.63999999995417,-533.6000000042418)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(183.35999999976593,-553.7000000046532)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(226.89999999983002,-1387.3000000046432)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(220.21999999992659,-912.7000000006547)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(249.99999999977263,-865.9000000008632)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(254.27999999969586,-1194.500000003984)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(256.2299999997464,-1348.0000000001269)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(226.89999999983002,-1387.3000000046432)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(309.7499999999087,-505.70000000504933)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(312.37999999973454,-521.3000000026113)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(314.3899999997757,-482.5000000039381)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(315.8299999999059,-491.8000000060374)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(321.7199999998144,-387.4000000010369)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(323.7299999998555,-399.30000000509835)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(325.5199999998126,-366.80000000188784)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(331.41999999983796,-401.30000000004884)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(321.58999999971627,-585.2000000032831)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(319.3499999998295,-571.7000000018402)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(314.83999999970536,-656.7000000003986)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(309.06000000001654,-627.7000000025623)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(308.10999999992816,-644.6000000011054)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(302.9599999997856,-613.7000000023818)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(309.7499999999087,-505.70000000504933)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(330.29999999989457,-602.2000000029948)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(337.33999999974174,-542.6000000028353)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(340.40999999973565,-583.900000002302)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(333.38000000000534,-643.5000000024615)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(330.29999999989457,-602.2000000029948)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(334.29999999974314,179.2999999992162)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(321.779999999805,272.6999999964619)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(327.16999999991003,354.999999998995)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(324.26999999977113,376.69999999678794)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(326.07999999996196,404.3999999936432)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(328.87999999999806,383.5999999992623)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(337.63999999969485,517.0999999961623)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(350.2799999999695,422.89999999667316)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(348.7699999997318,399.99999999906777)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(334.29999999974314,179.2999999992162)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(317.40999999989583,2545.5999999977053)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(317.87999999970395,2521.099999995613)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(324.110000000033,2044.6999999990112)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(329.99999999994145,2019.499999995844)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(336.3000000000227,2060.399999997742)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(336.74999999995237,2063.6999999936734)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(343.5399999997202,2038.8999999951807)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(362.02000000002954,2098.19999999894)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(372.8399999999965,2117.2999999947706)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(373.7499999999727,2118.5999999957517)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(373.73999999985585,2123.9999999949077)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(372.7800000000059,2195.6999999943605)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(371.3199999999972,2344.2999999971903)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(368.42999999997517,2581.899999995585)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(367.9499999996949,2621.399999995333)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(363.43999999992604,2614.3999999987955)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(363.90999999973417,2585.6999999973596)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(359.849999999895,2578.799999994885)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(359.3799999997316,2608.0999999962273)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(355.3199999998924,2601.799999993659)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(317.40999999989583,2545.5999999977053)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(261.7499999999495,2077.1999999951163)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(263.1899999997245,1959.4999999981155)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(273.11999999994896,1973.499999998296)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(271.67999999981873,2091.4999999988027)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(261.7499999999495,2077.1999999951163)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-30.590000000074724,1875.3999999958637)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-20.310000000023365,2026.1999999959812)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-21.219999999999573,2040.1999999961618)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-37.92000000011342,2015.799999995238)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-36.95000000014659,1927.5999999948112)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-30.590000000074724,1875.3999999958637)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-50.260000000079685,1605.3999999954272)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-43.11000000001286,1704.1999999989343)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-48.560000000108516,1750.3999999988196)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-44.540000000026225,1800.9999999932802)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-50.90000000009809,1850.6999999985396)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-53.139999999984866,1824.1999999943914)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-60.31000000028541,1756.0000000003129)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-58.48999999997773,1740.899999994383)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(-60.730000000219775,1714.2999999961717)
-setTrap(true)
-}
-createHouses(1){
-setxy(-62.55000000017219,1731.8999999957896)
-setTrap(true)
-}
-createHouses(1){
-setxy(-63.89999999996121,1718.3000000002835)
-setTrap(true)
-}
-createHouses(1){
-setxy(-57.99000000017429,1669.699999993668)
-setTrap(true)
-}
-createHouses(1){
-setxy(-50.260000000079685,1605.3999999954272)
-setTrap(true)
-}
-createHouses(1){
-setxy(-37.7200000002631,1741.6999999966265)
-setTrap(true)
-}
-createHouses(1){
-setxy(-29.220000000051982,1863.00000000017)
-setTrap(true)
-}
-createHouses(1){
-setxy(-30.590000000074724,1875.3999999958637)
-setTrap(true)
-}
-createHouses(1){
-setxy(-36.95000000014659,1927.5999999948112)
-setTrap(true)
-}
-createHouses(1){
-setxy(-37.92000000011342,2015.799999995238)
-setTrap(true)
-}
-createHouses(1){
-setxy(-38.37000000004309,2019.5999999970127)
-setTrap(true)
-}
-createHouses(1){
-setxy(-51.91000000017709,1995.9999999983324)
-setTrap(true)
-}
-createHouses(1){
-setxy(-50.9300000000934,1902.7999999963185)
-setTrap(true)
-}
-createHouses(1){
-setxy(-50.90000000009809,1850.6999999985396)
-setTrap(true)
-}
-createHouses(1){
-setxy(-44.540000000026225,1800.9999999932802)
-setTrap(true)
-}
-createHouses(1){
-setxy(-37.7200000002631,1741.6999999966265)
-setTrap(true)
-}
-createHouses(1){
-setxy(139.09999999981437,1899.3999999992184)
-setTrap(true)
-}
-createHouses(1){
-setxy(133.22999999978435,1891.199999995763)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(135.12999999996111,1767.6999999949317)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(144.15999999997098,1781.099999995206)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(142.26999999991108,1895.1999999998748)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(139.10999999993123,1890.099999997119)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(139.09999999981437,1899.3999999992184)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(141.30999999970584,1961.5000000001714)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(140.82000000001926,2013.2999999944445)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(136.7599999998248,2007.1999999942136)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(128.18999999986147,1994.5999999961828)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(129.129999999833,1942.8999999959728)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(138.149999999726,1956.7999999949848)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(139.09999999981437,1899.3999999992184)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(139.10999999993123,1890.099999997119)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(142.26999999991108,1895.1999999998748)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(141.77999999986923,1940.5999999975165)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(141.30999999970584,1961.5000000001714)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(59.979999999981715,1987.6999999937084)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(64.06999999981622,1953.6000000002218)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(65.41999999996051,1970.199999995259)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(65.86999999989018,1965.699999999515)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(67.20999999991761,1983.1999999979644)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(61.320000000009145,2012.5999999933697)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(61.320000000009145,2011.699999997063)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(59.979999999981715,1987.6999999937084)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(68.13000000001068,1969.79999999769)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(66.78999999998325,1950.499999999522)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(65.41999999996051,1961.5000000001714)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(57.37999999979593,1847.9999999954089)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(65.5599999998202,1780.7999999988056)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(75.39999999970348,1913.8999999981365)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(68.13000000001068,1969.79999999769)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(74.73999999980663,2191.1999999986165)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(58.03999999969278,2172.6999999955865)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(58.50999999985618,2152.3999999999432)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(59.46999999970615,2068.9999999987663)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(60.41000000003294,2017.2999999985564)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(61.320000000009145,2011.699999997063)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(61.320000000009145,2012.5999999933697)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(67.20999999991761,1983.1999999979644)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(78.09999999999206,1923.9999999953739)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(77.11999999990837,2027.0999999993933)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(74.73999999980663,2191.1999999986165)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(58.50999999985618,2152.3999999999432)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(28.27999999972519,2105.299999996646)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(27.389999999982706,2078.8999999936664)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(52.379999999985216,1883.799999994551)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(56.84999999999718,1953.299999996716)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(55.47999999997444,1965.3999999960092)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(58.60999999995897,2012.399999998138)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(57.66999999998745,2066.4999999979727)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(59.46999999970615,2068.9999999987663)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(58.50999999985618,2152.3999999999432)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(123.06999999971424,2197.2999999988474)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(122.59999999990612,2226.0000000002833)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(116.27999999994643,2215.8999999959406)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(114.01999999982593,2212.999999997578)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(115.43999999972243,2129.599999996401)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(115.90999999988583,2097.9999999966026)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(116.87999999985266,2019.899999993413)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(119.57999999978597,2023.7999999963563)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(119.1299999998563,2029.9999999977558)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(125.43999999969913,2039.1999999986865)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(124.969999999891,2069.699999999841)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(125.86999999975035,2071.599999993623)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(125.39999999994222,2105.299999996646)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(124.48999999996602,2103.7999999933277)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(123.5499999999945,2160.4999999951247)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(124.89999999978352,2162.699999999518)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(124.41999999985853,2199.1999999997347)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(123.06999999971424,2197.2999999988474)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(117.91999999992697,1825.199999998972)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(116.97999999995545,1884.3999999944572)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(115.54999999994209,1975.500000000352)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(114.59999999985371,2046.0999999940555)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(105.11999999991417,2031.4999999939687)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(107.99999999981935,1810.700000000054)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(117.91999999992697,1825.199999998972)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(82.18999999982657,1884.7999999991316)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(84.58999999980676,1695.8999999943103)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(93.16999999988695,1707.6999999972031)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(91.21999999983643,1896.2999999985186)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(82.18999999982657,1884.7999999991316)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(102.65999999994335,1695.59999999791)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(104.91999999970858,1699.0999999961787)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(102.00999999980809,1962.4999999976467)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(90.72999999979459,1946.799999998916)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(94.08999999998002,1683.799999995017)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(102.65999999994335,1695.59999999791)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(131.51999999969632,1768.299999994838)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(129.129999999833,1942.8999999959728)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(128.18999999986147,1994.5999999961828)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(115.54999999994209,1975.500000000352)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(116.97999999995545,1884.3999999944572)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(117.8799999998148,1885.6999999954382)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(119.78999999975315,1750.8999999975572)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(131.51999999969632,1768.299999994838)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(215.8299999997837,1985.699999998758)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(193.2699999997567,1953.299999996716)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(193.75999999979854,1896.7999999972562)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(194.23999999972352,1853.4999999957336)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(208.2299999997872,1871.3999999988573)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(208.25000000002092,1851.2999999984459)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(215.91999999976963,1861.5999999980204)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(215.91999999976963,1861.8000000003576)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(215.91999999976963,1862.099999996758)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(216.3699999996993,1862.499999994327)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(216.3699999996993,1862.7999999978329)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(216.3699999996993,1863.0999999942333)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(216.3699999996993,1863.399999997739)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(216.3699999996993,1863.6999999941395)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(216.81999999998425,1864.2999999940457)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(216.81999999998425,1864.5999999975515)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(216.81999999998425,1865.1999999974578)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(216.81999999998425,1865.4999999938582)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(216.81999999998425,1866.0999999937644)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(216.81999999998425,1866.6999999936706)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.26999999991392,1867.2999999935769)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.26999999991392,1867.5999999970827)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.26999999991392,1868.199999996989)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.26999999991392,1869.0999999932956)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.26999999991392,1869.7000000003072)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.26999999991392,1870.3000000002135)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.7199999998436,1870.9999999941829)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.7199999998436,1871.599999994089)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.7199999998436,1872.4999999975012)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.7199999998436,1873.0999999974074)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.7199999998436,1873.999999993714)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.7199999998436,1874.5999999936203)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.7199999998436,1875.4999999970323)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.16999999977327,1876.399999993339)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.16999999977327,1877.299999996751)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.16999999977327,1877.8999999966572)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.16999999977327,1878.8000000000693)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.16999999977327,1879.699999996376)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.16999999977327,1880.599999999788)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.16000000001168,1881.4999999960946)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.16000000001168,1882.3999999995067)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.16000000001168,1883.2999999958133)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.16000000001168,1884.1999999992254)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.60999999994135,1885.099999995532)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.60999999994135,1885.999999998944)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.60999999994135,1887.1999999987565)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.60999999994135,1888.0999999950632)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.60999999994135,1888.9999999984752)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.60999999994135,1889.8999999947819)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.60999999994135,1891.0999999945943)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.60999999994135,1891.9999999980064)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.60999999994135,1892.899999994313)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.60999999994135,1894.0999999941255)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.60999999994135,1894.9999999975375)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.60999999994135,1895.8999999938442)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.5999999998245,1897.0999999936566)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.5999999998245,1897.9999999970687)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.5999999998245,1898.8999999933753)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(218.5999999998245,1900.1000000002932)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(217.62999999985766,1987.9999999972142)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(215.8299999997837,1985.699999998758)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(191.35999999981834,2088.6999999945033)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(195.86999999994248,2095.09999999824)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(195.39999999977908,2127.599999994345)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(197.19999999985305,2130.1999999963073)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(197.65999999989958,2113.5000000001014)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(198.5699999998758,2114.699999999914)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(205.33999999976515,2124.599999994814)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(204.85999999984017,2152.3999999999432)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(204.85999999984017,2157.0999999980245)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(211.62999999972953,2166.699999996524)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(210.17999999983772,2298.499999994874)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(208.37000000000216,2296.2999999975864)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(207.87999999996032,2353.3999999969524)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(192.52999999999076,2331.6999999991594)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(188.4699999997963,2325.700000000097)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(190.8699999997765,2137.399999995182)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(190.87999999989336,2129.899999999907)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(191.35999999981834,2088.6999999945033)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(195.86999999994248,2095.09999999824)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(191.35999999981834,2088.6999999945033)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(191.83999999974333,2052.499999997792)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(192.80999999971016,1966.099999997084)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(197.3199999998343,1972.199999997315)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(209.9499999999921,1989.9999999992701)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(213.10999999997193,1994.4999999950142)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(212.63999999980854,2015.9999999975753)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(211.20999999979517,2116.99999999837)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(195.86999999994248,2095.09999999824)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(193.2699999997567,1953.299999996716)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(192.80999999971016,1966.099999997084)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(191.83999999974333,2052.499999997792)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(191.35999999981834,2088.6999999945033)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(178.2699999999693,2069.3999999963353)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(178.74999999989427,2033.7999999995304)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(180.67999999971107,1877.1999999955824)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(186.5399999999795,1885.6999999954382)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(184.16999999999462,2041.69999999948)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(185.9699999997133,2044.2999999943368)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(187.88999999976852,1888.1999999962318)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(193.75999999979854,1896.7999999972562)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(193.2699999997567,1953.299999996716)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(139.85999999981402,2087.099999997122)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(135.79999999997483,2081.0999999980595)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(136.7599999998248,2007.1999999942136)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(140.82000000001926,2013.2999999944445)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(140.32999999997742,2063.799999994842)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(139.85999999981402,2087.099999997122)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(162.26999999986447,2326.799999998741)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(150.08999999999162,2306.6999999983295)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(152.02999999992528,2133.8999999969133)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(152.02999999992528,2130.299999997476)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(153.45999999993865,2031.9999999998117)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(166.08999999974117,2050.999999994474)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(162.74000000002786,2307.9999999993106)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(162.26999999986447,2326.799999998741)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(168.13999999989448,2334.4999999963534)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(168.15000000001135,2315.89999999926)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(162.74000000002786,2307.9999999993106)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(166.08999999974117,2050.999999994474)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(178.2699999999693,2069.3999999963353)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(177.77999999992744,2119.2999999968265)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(174.9199999999007,2325.7999999941603)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(174.90999999978385,2343.3999999937782)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(174.43999999997573,2360.7999999981644)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(167.6699999997311,2351.499999996065)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(168.13999999989448,2334.4999999963534)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(152.02999999992528,2130.299999997476)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(146.15999999989526,2121.400000000051)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(147.58999999990863,2023.3999999987873)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(153.45999999993865,2031.9999999998117)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(152.02999999992528,2130.299999997476)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(174.90999999978385,2343.3999999937782)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(174.9199999999007,2325.7999999941603)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(177.77999999992744,2119.2999999968265)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(178.2699999999693,2069.3999999963353)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(191.35999999981834,2088.6999999945033)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(190.87999999989336,2129.899999999907)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(190.8699999997765,2137.399999995182)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(188.4699999997963,2325.700000000097)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(187.98999999987132,2360.999999993396)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(183.47999999974718,2354.599999996765)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(185.9099999997227,2130.699999995045)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(182.29999999981317,2125.5999999993946)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(179.419999999908,2349.799999997515)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(174.90999999978385,2343.3999999937782)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(168.48999999972136,1859.0999999972269)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(180.67999999971107,1877.1999999955824)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(178.74999999989427,2033.7999999995304)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(178.2699999999693,2069.3999999963353)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(166.08999999974117,2050.999999994474)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(168.48999999972136,1859.0999999972269)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(140.32999999997742,2063.799999994842)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(140.82000000001926,2013.2999999944445)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(144.42999999992878,2018.9999999971064)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(143.93999999988694,2069.499999997504)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(140.32999999997742,2063.799999994842)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(142.26999999991108,1895.1999999998748)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(144.15999999997098,1781.099999995206)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(148.66999999973984,1787.399999997774)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(152.28000000000463,1791.8999999935181)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(152.28999999976622,1780.7999999988056)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(154.53999999976986,1783.3999999936623)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(154.0899999998402,1791.799999999455)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(155.88999999991415,1793.9999999967426)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(155.88999999991415,1802.6999999989357)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(154.42999999990548,1937.199999993311)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(154.41999999978862,1949.4999999949414)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(146.7500000000399,1938.099999996723)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(146.28999999999337,1947.89999999756)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(141.77999999986923,1940.5999999975165)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(142.26999999991108,1895.1999999998748)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(153.45999999993865,2031.9999999998117)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(153.9499999999805,1981.3999999982457)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(153.9499999999805,1977.899999999977)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(154.41999999978862,1949.4999999949414)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(154.42999999990548,1937.199999993311)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(155.88999999991415,1802.6999999989357)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(155.88999999991415,1793.9999999967426)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(155.88999999991415,1792.4999999934244)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(156.36999999983914,1761.6999999958693)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(169.4499999999266,1778.9999999990869)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(168.97000000000162,1819.8999999938792)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(168.48999999972136,1859.0999999972269)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(166.08999999974117,2050.999999994474)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(153.45999999993865,2031.9999999998117)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(153.9499999999805,1977.899999999977)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(153.9499999999805,1981.3999999982457)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(153.45999999993865,2031.9999999998117)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(147.58999999990863,2023.3999999987873)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(144.42999999992878,2018.9999999971064)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(140.82000000001926,2013.2999999944445)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(141.30999999970584,1961.5000000001714)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(153.9499999999805,1977.899999999977)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(258.50999999974533,2178.9999999981546)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(233.24000000002343,2141.2999999981253)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(235.14999999996178,2007.999999996457)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(259.969999999754,2044.499999996674)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(258.9999999997872,2124.2999999984136)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(258.50999999974533,2176.299999995024)
-setActivefocus(true)
-}
-createHouses(1){
-setxy(258.50999999974533,2178.9999999981546)
+setxy(-1106.8716642011,14.70936276804226)
 setActivefocus(true)
 }
 setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(0.0,0.0)
+setxy(-1106.8716642011,14.70936276804226)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(31.11999999987347,49.19999999941638)
+setxy(-1106.8716642011,14.70936276804226)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(32.5600000000037,-43.000000005122274)
+setxy(-1106.8716642011,14.70936276804226)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-1155.7578760225983,-55.35210564820462)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1155.7578760225983,-55.35210564820462)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1155.7578760225983,-55.35210564820462)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1155.7578760225983,-55.35210564820462)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-854.738786090164,-37.14813064996413)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-854.738786090164,-37.14813064996413)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-854.738786090164,-37.14813064996413)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-854.738786090164,-37.14813064996413)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-920.7008907099057,-40.583858810312805)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-920.7008907099057,-40.583858810312805)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-920.7008907099057,-40.583858810312805)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-920.7008907099057,-40.583858810312805)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-859.3149766220923,-114.03089469199429)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-859.3149766220923,-114.03089469199429)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-859.3149766220923,-114.03089469199429)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-859.3149766220923,-114.03089469199429)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-773.7675680644643,-40.06875337379051)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-773.7675680644643,-40.06875337379051)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-773.7675680644643,-40.06875337379051)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-773.7675680644643,-40.06875337379051)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-753.3983763569319,-48.68067855597219)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-753.3983763569319,-48.68067855597219)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-753.3983763569319,-48.68067855597219)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-753.3983763569319,-48.68067855597219)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-754.5091601675464,56.279994048092846)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-754.5091601675464,56.279994048092846)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-754.5091601675464,56.279994048092846)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-754.5091601675464,56.279994048092846)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-733.9738799974588,277.063350902464)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-733.9738799974588,277.063350902464)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-733.9738799974588,277.063350902464)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-733.9738799974588,277.063350902464)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-829.0606644699221,243.82126075134062)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-829.0606644699221,243.82126075134062)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-829.0606644699221,243.82126075134062)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-829.0606644699221,243.82126075134062)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-1158.0646915357368,235.40644942358213)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1158.0646915357368,235.40644942358213)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1158.0646915357368,235.40644942358213)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1158.0646915357368,235.40644942358213)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-1185.4330088411186,209.67119027661533)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1185.4330088411186,209.67119027661533)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1185.4330088411186,209.67119027661533)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1185.4330088411186,209.67119027661533)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-1170.3164317856688,227.05912678555418)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1170.3164317856688,227.05912678555418)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1170.3164317856688,227.05912678555418)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1170.3164317856688,227.05912678555418)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-970.7457305651853,224.34148264239533)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-970.7457305651853,224.34148264239533)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-970.7457305651853,224.34148264239533)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-970.7457305651853,224.34148264239533)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-971.72174465096,234.41584583625627)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-971.72174465096,234.41584583625627)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-971.72174465096,234.41584583625627)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-971.72174465096,234.41584583625627)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-1054.944233907015,238.06942785816716)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1054.944233907015,238.06942785816716)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1054.944233907015,238.06942785816716)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1054.944233907015,238.06942785816716)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-1051.0071312364323,230.22183813382617)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1051.0071312364323,230.22183813382617)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1051.0071312364323,230.22183813382617)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1051.0071312364323,230.22183813382617)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-1051.2677803731553,247.44827123158598)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1051.2677803731553,247.44827123158598)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1051.2677803731553,247.44827123158598)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1051.2677803731553,247.44827123158598)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-1068.0993496193066,244.72856953313843)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1068.0993496193066,244.72856953313843)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1068.0993496193066,244.72856953313843)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1068.0993496193066,244.72856953313843)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-990.1832578364483,253.8206669056875)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-990.1832578364483,253.8206669056875)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-990.1832578364483,253.8206669056875)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-990.1832578364483,253.8206669056875)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-998.703550566062,230.29013458655945)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-998.703550566062,230.29013458655945)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-998.703550566062,230.29013458655945)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-998.703550566062,230.29013458655945)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-1028.786052300901,219.15052655841183)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1028.786052300901,219.15052655841183)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1028.786052300901,219.15052655841183)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1028.786052300901,219.15052655841183)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-1014.5096841308975,215.44420020185288)
+setTrap(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1014.5096841308975,215.44420020185288)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1014.5096841308975,215.44420020185288)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-1014.5096841308975,215.44420020185288)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-987.4813469350123,225.53557775086927)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-987.4813469350123,225.53557775086927)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-987.4813469350123,225.53557775086927)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-987.4813469350123,225.53557775086927)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-884.8298567638964,226.8758266202527)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-884.8298567638964,226.8758266202527)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-884.8298567638964,226.8758266202527)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-884.8298567638964,226.8758266202527)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-903.809337834173,259.8088472767787)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-903.809337834173,259.8088472767787)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-903.809337834173,259.8088472767787)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-903.809337834173,259.8088472767787)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-901.4450781414472,244.14816369985698)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-901.4450781414472,244.14816369985698)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-901.4450781414472,244.14816369985698)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-901.4450781414472,244.14816369985698)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-916.5834539934086,237.71320270033752)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-916.5834539934086,237.71320270033752)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-916.5834539934086,237.71320270033752)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-916.5834539934086,237.71320270033752)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-970.7084012019302,246.13623634534423)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-970.7084012019302,246.13623634534423)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-970.7084012019302,246.13623634534423)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-970.7084012019302,246.13623634534423)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-949.8964914524573,262.29625405884224)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-949.8964914524573,262.29625405884224)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-949.8964914524573,262.29625405884224)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-949.8964914524573,262.29625405884224)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-934.9968381237545,269.299040653495)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-934.9968381237545,269.299040653495)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-934.9968381237545,269.299040653495)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-934.9968381237545,269.299040653495)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-958.0894982749778,249.5697671685874)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-958.0894982749778,249.5697671685874)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-958.0894982749778,249.5697671685874)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-958.0894982749778,249.5697671685874)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-921.7214510384624,265.2949964561832)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-921.7214510384624,265.2949964561832)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-921.7214510384624,265.2949964561832)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-921.7214510384624,265.2949964561832)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-932.2849914740477,235.2025857494093)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-932.2849914740477,235.2025857494093)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-932.2849914740477,235.2025857494093)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-932.2849914740477,235.2025857494093)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-967.3004378767538,244.94428053053593)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-967.3004378767538,244.94428053053593)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-967.3004378767538,244.94428053053593)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-967.3004378767538,244.94428053053593)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-958.6669407653997,223.65964182970055)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-958.6669407653997,223.65964182970055)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-958.6669407653997,223.65964182970055)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-958.6669407653997,223.65964182970055)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-948.784991419548,228.48489807609636)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-948.784991419548,228.48489807609636)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-948.784991419548,228.48489807609636)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-948.784991419548,228.48489807609636)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-959.8368387622581,239.65388430100586)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-959.8368387622581,239.65388430100586)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-959.8368387622581,239.65388430100586)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-959.8368387622581,239.65388430100586)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-845.1348661970658,253.38262165394093)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-845.1348661970658,253.38262165394093)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-845.1348661970658,253.38262165394093)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-845.1348661970658,253.38262165394093)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-857.0003875061722,231.9551153895239)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-857.0003875061722,231.9551153895239)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-857.0003875061722,231.9551153895239)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-857.0003875061722,231.9551153895239)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-786.3184046513296,251.83285321852895)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-786.3184046513296,251.83285321852895)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-786.3184046513296,251.83285321852895)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-786.3184046513296,251.83285321852895)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-773.5160689790863,242.5432235329827)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-773.5160689790863,242.5432235329827)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-773.5160689790863,242.5432235329827)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-773.5160689790863,242.5432235329827)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-814.899558061924,244.12815691670056)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-814.899558061924,244.12815691670056)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-814.899558061924,244.12815691670056)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-814.899558061924,244.12815691670056)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(394.01355093475104,168.16343219857546)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(394.01355093475104,168.16343219857546)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(394.01355093475104,168.16343219857546)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(394.01355093475104,168.16343219857546)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(405.0346861111191,158.52550883550293)
+setTrap(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(405.0346861111191,158.52550883550293)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(405.0346861111191,158.52550883550293)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(405.0346861111191,158.52550883550293)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(394.073608000891,229.99706041814355)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(394.073608000891,229.99706041814355)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(394.073608000891,229.99706041814355)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(394.073608000891,229.99706041814355)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(393.9638928826684,240.20982883049277)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(393.9638928826684,240.20982883049277)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(393.9638928826684,240.20982883049277)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(393.9638928826684,240.20982883049277)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(399.76206445471774,248.92709303016437)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(399.76206445471774,248.92709303016437)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(399.76206445471774,248.92709303016437)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(399.76206445471774,248.92709303016437)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(402.32165526245984,227.6589939774471)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(402.32165526245984,227.6589939774471)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(402.32165526245984,227.6589939774471)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(402.32165526245984,227.6589939774471)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(426.17626636557645,224.4209051662561)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(426.17626636557645,224.4209051662561)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(426.17626636557645,224.4209051662561)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(426.17626636557645,224.4209051662561)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(399.95998824660995,151.98534479074425)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(399.95998824660995,151.98534479074425)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(399.95998824660995,151.98534479074425)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(399.95998824660995,151.98534479074425)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(408.56265276832045,221.50315741200075)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(408.56265276832045,221.50315741200075)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(408.56265276832045,221.50315741200075)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(408.56265276832045,221.50315741200075)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(406.5690908045715,185.8619582209336)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(406.5690908045715,185.8619582209336)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(406.5690908045715,185.8619582209336)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(406.5690908045715,185.8619582209336)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-199.4830334712327,186.99672074904686)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-199.4830334712327,186.99672074904686)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-199.4830334712327,186.99672074904686)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-199.4830334712327,186.99672074904686)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-80.12772258710028,140.36602403539018)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-80.12772258710028,140.36602403539018)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-80.12772258710028,140.36602403539018)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-80.12772258710028,140.36602403539018)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(246.16977178308105,230.37789220822236)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(246.16977178308105,230.37789220822236)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(246.16977178308105,230.37789220822236)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(246.16977178308105,230.37789220822236)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(187.46336500331478,247.44160644633175)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(187.46336500331478,247.44160644633175)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(187.46336500331478,247.44160644633175)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(187.46336500331478,247.44160644633175)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(204.54206631060012,251.2398413657857)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(204.54206631060012,251.2398413657857)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(204.54206631060012,251.2398413657857)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(204.54206631060012,251.2398413657857)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(203.39114499542447,238.04410228773295)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(203.39114499542447,238.04410228773295)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(203.39114499542447,238.04410228773295)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(203.39114499542447,238.04410228773295)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(336.7253632032083,182.3421406626585)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(336.7253632032083,182.3421406626585)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(336.7253632032083,182.3421406626585)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(336.7253632032083,182.3421406626585)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(324.5181302286947,160.51192114372304)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(324.5181302286947,160.51192114372304)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(324.5181302286947,160.51192114372304)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(324.5181302286947,160.51192114372304)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(324.0997843815279,181.5439962262431)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(324.0997843815279,181.5439962262431)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(324.0997843815279,181.5439962262431)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(324.0997843815279,181.5439962262431)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(325.6138173127203,230.00262425583475)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(325.6138173127203,230.00262425583475)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(325.6138173127203,230.00262425583475)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(325.6138173127203,230.00262425583475)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(343.0398101300029,174.18544823851346)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(343.0398101300029,174.18544823851346)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(343.0398101300029,174.18544823851346)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(343.0398101300029,174.18544823851346)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(392.5800650009658,143.2066490912348)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(392.5800650009658,143.2066490912348)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(392.5800650009658,143.2066490912348)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(392.5800650009658,143.2066490912348)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(378.3582734508159,163.68108960641382)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(378.3582734508159,163.68108960641382)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(378.3582734508159,163.68108960641382)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(378.3582734508159,163.68108960641382)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(337.6204325474826,159.60405347263418)
+setTrap(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(337.6204325474826,159.60405347263418)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(337.6204325474826,159.60405347263418)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(337.6204325474826,159.60405347263418)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(281.77436606000913,240.43665933192918)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(281.77436606000913,240.43665933192918)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(281.77436606000913,240.43665933192918)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(281.77436606000913,240.43665933192918)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(296.6645477341408,240.8229671029174)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(296.6645477341408,240.8229671029174)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(296.6645477341408,240.8229671029174)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(296.6645477341408,240.8229671029174)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(312.2580980764481,239.8231346476307)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(312.2580980764481,239.8231346476307)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(312.2580980764481,239.8231346476307)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(312.2580980764481,239.8231346476307)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(256.497915215595,248.4475965174602)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(256.497915215595,248.4475965174602)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(256.497915215595,248.4475965174602)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(256.497915215595,248.4475965174602)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(289.2926908134172,238.29260416494944)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(289.2926908134172,238.29260416494944)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(289.2926908134172,238.29260416494944)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(289.2926908134172,238.29260416494944)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(280.0321875185549,229.34977664031004)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(280.0321875185549,229.34977664031004)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(280.0321875185549,229.34977664031004)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(280.0321875185549,229.34977664031004)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(262.86682691650907,239.1176024980873)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(262.86682691650907,239.1176024980873)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(262.86682691650907,239.1176024980873)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(262.86682691650907,239.1176024980873)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(260.5716269794067,214.21371240832744)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(260.5716269794067,214.21371240832744)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(260.5716269794067,214.21371240832744)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(260.5716269794067,214.21371240832744)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(287.6814978947718,205.33214185475708)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(287.6814978947718,205.33214185475708)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(287.6814978947718,205.33214185475708)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(287.6814978947718,205.33214185475708)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(300.72772888756833,217.6694789132238)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(300.72772888756833,217.6694789132238)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(300.72772888756833,217.6694789132238)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(300.72772888756833,217.6694789132238)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(305.01519979640784,235.3130418087215)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(305.01519979640784,235.3130418087215)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(305.01519979640784,235.3130418087215)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(305.01519979640784,235.3130418087215)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(316.57669345283216,193.73703886057055)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(316.57669345283216,193.73703886057055)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(316.57669345283216,193.73703886057055)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(316.57669345283216,193.73703886057055)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(313.80363519606146,208.38320323033892)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(313.80363519606146,208.38320323033892)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(313.80363519606146,208.38320323033892)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(313.80363519606146,208.38320323033892)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(290.03315969991553,207.69429380470515)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(290.03315969991553,207.69429380470515)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(290.03315969991553,207.69429380470515)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(290.03315969991553,207.69429380470515)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(293.7084852719874,194.85084562096537)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(293.7084852719874,194.85084562096537)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(293.7084852719874,194.85084562096537)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(293.7084852719874,194.85084562096537)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(319.5727674397392,228.46344075804117)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(319.5727674397392,228.46344075804117)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(319.5727674397392,228.46344075804117)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(319.5727674397392,228.46344075804117)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(310.49811814456297,214.19305533405776)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(310.49811814456297,214.19305533405776)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(310.49811814456297,214.19305533405776)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(310.49811814456297,214.19305533405776)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(382.0819801139326,252.4978628261373)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(382.0819801139326,252.4978628261373)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(382.0819801139326,252.4978628261373)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(382.0819801139326,252.4978628261373)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(361.3331351696546,224.1035086343599)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(361.3331351696546,224.1035086343599)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(361.3331351696546,224.1035086343599)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(361.3331351696546,224.1035086343599)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(380.0823497405126,244.079221979566)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(380.0823497405126,244.079221979566)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(380.0823497405126,244.079221979566)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(380.0823497405126,244.079221979566)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(366.70067663389517,247.83743108439012)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(366.70067663389517,247.83743108439012)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(366.70067663389517,247.83743108439012)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(366.70067663389517,247.83743108439012)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(357.88473716057354,199.21561565603136)
+setTrap(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(357.88473716057354,199.21561565603136)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(357.88473716057354,199.21561565603136)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(357.88473716057354,199.21561565603136)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(373.7815151179661,248.2562573484329)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(373.7815151179661,248.2562573484329)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(373.7815151179661,248.2562573484329)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(373.7815151179661,248.2562573484329)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(365.42060367682086,215.61053227597137)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(365.42060367682086,215.61053227597137)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(365.42060367682086,215.61053227597137)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(365.42060367682086,215.61053227597137)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(343.47694935463386,236.83602063481172)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(343.47694935463386,236.83602063481172)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(343.47694935463386,236.83602063481172)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(343.47694935463386,236.83602063481172)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(333.8733632729025,245.20668342551787)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(333.8733632729025,245.20668342551787)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(333.8733632729025,245.20668342551787)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(333.8733632729025,245.20668342551787)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(356.956298247037,228.6318107949571)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(356.956298247037,228.6318107949571)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(356.956298247037,228.6318107949571)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(356.956298247037,228.6318107949571)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(364.439358988687,187.2658028663121)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(364.439358988687,187.2658028663121)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(364.439358988687,187.2658028663121)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(364.439358988687,187.2658028663121)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(336.1060287706542,201.26902217073916)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(336.1060287706542,201.26902217073916)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(336.1060287706542,201.26902217073916)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(336.1060287706542,201.26902217073916)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(343.9515656657094,200.03925538329833)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(343.9515656657094,200.03925538329833)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(343.9515656657094,200.03925538329833)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(343.9515656657094,200.03925538329833)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(355.5575354989254,179.33575841923266)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(355.5575354989254,179.33575841923266)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(355.5575354989254,179.33575841923266)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(355.5575354989254,179.33575841923266)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(387.44781867716677,236.03132119655723)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(387.44781867716677,236.03132119655723)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(387.44781867716677,236.03132119655723)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(387.44781867716677,236.03132119655723)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(376.27238990035096,209.48691491471598)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(376.27238990035096,209.48691491471598)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(376.27238990035096,209.48691491471598)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(376.27238990035096,209.48691491471598)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(386.02866940023455,188.29911827795695)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(386.02866940023455,188.29911827795695)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(386.02866940023455,188.29911827795695)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(386.02866940023455,188.29911827795695)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(384.41242578329735,203.07422921207936)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(384.41242578329735,203.07422921207936)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(384.41242578329735,203.07422921207936)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(384.41242578329735,203.07422921207936)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(434.9798898292859,168.66674459023184)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(434.9798898292859,168.66674459023184)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(434.9798898292859,168.66674459023184)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(434.9798898292859,168.66674459023184)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(457.1984617066213,176.7698146672545)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(457.1984617066213,176.7698146672545)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(457.1984617066213,176.7698146672545)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(457.1984617066213,176.7698146672545)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(411.3880575529072,169.1374461767701)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(411.3880575529072,169.1374461767701)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(411.3880575529072,169.1374461767701)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(411.3880575529072,169.1374461767701)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(422.35801167112214,173.75181752271678)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(422.35801167112214,173.75181752271678)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(422.35801167112214,173.75181752271678)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(422.35801167112214,173.75181752271678)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(467.5377512724479,174.68154692024848)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(467.5377512724479,174.68154692024848)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(467.5377512724479,174.68154692024848)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(467.5377512724479,174.68154692024848)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(433.02109308636847,150.60957112987637)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(433.02109308636847,150.60957112987637)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(433.02109308636847,150.60957112987637)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(433.02109308636847,150.60957112987637)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(431.25635017055293,156.35223889526912)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(431.25635017055293,156.35223889526912)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(431.25635017055293,156.35223889526912)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(431.25635017055293,156.35223889526912)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(424.47547704981343,143.06281568080087)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(424.47547704981343,143.06281568080087)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(424.47547704981343,143.06281568080087)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(424.47547704981343,143.06281568080087)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(443.9275524877705,154.9657166042511)
+setTrap(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(443.9275524877705,154.9657166042511)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(443.9275524877705,154.9657166042511)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(443.9275524877705,154.9657166042511)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(449.8818702814488,152.56130425192535)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(449.8818702814488,152.56130425192535)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(449.8818702814488,152.56130425192535)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(449.8818702814488,152.56130425192535)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(439.13837543789214,160.86681050449306)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(439.13837543789214,160.86681050449306)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(439.13837543789214,160.86681050449306)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(439.13837543789214,160.86681050449306)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(409.2305683719466,246.34142291662238)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(409.2305683719466,246.34142291662238)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(409.2305683719466,246.34142291662238)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(409.2305683719466,246.34142291662238)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(433.2002435417833,202.50298042961185)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(433.2002435417833,202.50298042961185)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(433.2002435417833,202.50298042961185)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(433.2002435417833,202.50298042961185)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(438.9586100415078,197.7036337761125)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(438.9586100415078,197.7036337761125)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(438.9586100415078,197.7036337761125)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(438.9586100415078,197.7036337761125)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(446.62592401651045,247.62458612313114)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(446.62592401651045,247.62458612313114)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(446.62592401651045,247.62458612313114)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(446.62592401651045,247.62458612313114)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(431.4886904657181,249.8054871009505)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(431.4886904657181,249.8054871009505)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(431.4886904657181,249.8054871009505)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(431.4886904657181,249.8054871009505)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(462.614982587877,248.88420718669428)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(462.614982587877,248.88420718669428)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(462.614982587877,248.88420718669428)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(462.614982587877,248.88420718669428)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(418.31194915599343,253.4772099503223)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(418.31194915599343,253.4772099503223)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(418.31194915599343,253.4772099503223)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(418.31194915599343,253.4772099503223)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(442.91604614539057,203.69146406483532)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(442.91604614539057,203.69146406483532)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(442.91604614539057,203.69146406483532)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(442.91604614539057,203.69146406483532)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(419.0255028490902,180.07373719877165)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(419.0255028490902,180.07373719877165)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(419.0255028490902,180.07373719877165)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(419.0255028490902,180.07373719877165)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(417.754757692873,220.13732303237708)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(417.754757692873,220.13732303237708)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(417.754757692873,220.13732303237708)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(417.754757692873,220.13732303237708)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(406.2577556395631,239.4782112036435)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(406.2577556395631,239.4782112036435)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(406.2577556395631,239.4782112036435)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(406.2577556395631,239.4782112036435)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(427.77496796030977,239.24551875114742)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(427.77496796030977,239.24551875114742)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(427.77496796030977,239.24551875114742)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(427.77496796030977,239.24551875114742)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(420.84138742208336,210.36876934312977)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(420.84138742208336,210.36876934312977)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(420.84138742208336,210.36876934312977)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(420.84138742208336,210.36876934312977)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(416.88609563409506,242.36830611647102)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(416.88609563409506,242.36830611647102)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(416.88609563409506,242.36830611647102)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(416.88609563409506,242.36830611647102)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(423.02673792095305,217.4159747959827)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(423.02673792095305,217.4159747959827)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(423.02673792095305,217.4159747959827)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(423.02673792095305,217.4159747959827)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(418.8029034455873,232.27386858479332)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(418.8029034455873,232.27386858479332)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(418.8029034455873,232.27386858479332)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(418.8029034455873,232.27386858479332)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(430.83956218747454,196.27993182878024)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(430.83956218747454,196.27993182878024)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(430.83956218747454,196.27993182878024)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(430.83956218747454,196.27993182878024)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(452.3188418771128,215.30653838121876)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(452.3188418771128,215.30653838121876)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(452.3188418771128,215.30653838121876)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(452.3188418771128,215.30653838121876)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(446.0455617290489,196.1370667662116)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(446.0455617290489,196.1370667662116)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(446.0455617290489,196.1370667662116)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(446.0455617290489,196.1370667662116)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(446.1562853617882,216.07798321509654)
+setTrap(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(446.1562853617882,216.07798321509654)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(446.1562853617882,216.07798321509654)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(446.1562853617882,216.07798321509654)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(448.7455260889535,186.09830210958566)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(448.7455260889535,186.09830210958566)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(448.7455260889535,186.09830210958566)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(448.7455260889535,186.09830210958566)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(450.9363487052252,224.68515670613792)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(450.9363487052252,224.68515670613792)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(450.9363487052252,224.68515670613792)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(450.9363487052252,224.68515670613792)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(447.51010939187523,207.52717528865242)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(447.51010939187523,207.52717528865242)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(447.51010939187523,207.52717528865242)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(447.51010939187523,207.52717528865242)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(465.9387676845969,239.8998922575462)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(465.9387676845969,239.8998922575462)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(465.9387676845969,239.8998922575462)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(465.9387676845969,239.8998922575462)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(449.6795058339011,182.26781846427428)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(449.6795058339011,182.26781846427428)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(449.6795058339011,182.26781846427428)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(449.6795058339011,182.26781846427428)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(459.75884861972503,231.64823673058746)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(459.75884861972503,231.64823673058746)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(459.75884861972503,231.64823673058746)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(459.75884861972503,231.64823673058746)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(456.6844644287611,185.8003213325542)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(456.6844644287611,185.8003213325542)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(456.6844644287611,185.8003213325542)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(456.6844644287611,185.8003213325542)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(452.45007986346195,204.84043404272802)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(452.45007986346195,204.84043404272802)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(452.45007986346195,204.84043404272802)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(452.45007986346195,204.84043404272802)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(448.18456794527145,255.25934359005458)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(448.18456794527145,255.25934359005458)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(448.18456794527145,255.25934359005458)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(448.18456794527145,255.25934359005458)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(394.99203148722637,-200.93481188279665)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(394.99203148722637,-200.93481188279665)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(394.99203148722637,-200.93481188279665)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(394.99203148722637,-200.93481188279665)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(395.0165000894835,82.51894365138112)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(395.0165000894835,82.51894365138112)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(395.0165000894835,82.51894365138112)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(395.0165000894835,82.51894365138112)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(401.9852966813739,111.01725820077641)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(401.9852966813739,111.01725820077641)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(401.9852966813739,111.01725820077641)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(401.9852966813739,111.01725820077641)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(403.9704264111592,-164.55200936383403)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(403.9704264111592,-164.55200936383403)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(403.9704264111592,-164.55200936383403)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(403.9704264111592,-164.55200936383403)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(404.4317860583892,77.73470560200917)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(404.4317860583892,77.73470560200917)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(404.4317860583892,77.73470560200917)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(404.4317860583892,77.73470560200917)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(392.85942499108313,118.8432276381487)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(392.85942499108313,118.8432276381487)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(392.85942499108313,118.8432276381487)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(392.85942499108313,118.8432276381487)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-223.3297642463782,-64.14571389484786)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-223.3297642463782,-64.14571389484786)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-223.3297642463782,-64.14571389484786)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-223.3297642463782,-64.14571389484786)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-216.57671715480552,-12.884027287689793)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-216.57671715480552,-12.884027287689793)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-216.57671715480552,-12.884027287689793)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-216.57671715480552,-12.884027287689793)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-501.98503231722015,-348.6798238181665)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-501.98503231722015,-348.6798238181665)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-501.98503231722015,-348.6798238181665)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-501.98503231722015,-348.6798238181665)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-520.8298119693445,-31.604235248396186)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-520.8298119693445,-31.604235248396186)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-520.8298119693445,-31.604235248396186)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-520.8298119693445,-31.604235248396186)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-506.7989234302495,-437.306558157693)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-506.7989234302495,-437.306558157693)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-506.7989234302495,-437.306558157693)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-506.7989234302495,-437.306558157693)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-641.0880074213917,-125.5994195934976)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-641.0880074213917,-125.5994195934976)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-641.0880074213917,-125.5994195934976)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-641.0880074213917,-125.5994195934976)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-676.0727035640921,-163.08892294971565)
+setTrap(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-676.0727035640921,-163.08892294971565)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-676.0727035640921,-163.08892294971565)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-676.0727035640921,-163.08892294971565)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-519.8046382799808,-365.74889891542847)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-519.8046382799808,-365.74889891542847)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-519.8046382799808,-365.74889891542847)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-519.8046382799808,-365.74889891542847)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-673.4152711772681,-137.22764939594651)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-673.4152711772681,-137.22764939594651)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-673.4152711772681,-137.22764939594651)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-673.4152711772681,-137.22764939594651)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-690.7608437582255,-162.5232682705446)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-690.7608437582255,-162.5232682705446)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-690.7608437582255,-162.5232682705446)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-690.7608437582255,-162.5232682705446)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-693.2092400867675,-265.88287748072753)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-693.2092400867675,-265.88287748072753)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-693.2092400867675,-265.88287748072753)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-693.2092400867675,-265.88287748072753)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-699.0333526118679,-184.74747003910167)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-699.0333526118679,-184.74747003910167)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-699.0333526118679,-184.74747003910167)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-699.0333526118679,-184.74747003910167)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-591.9077518785152,-88.80251031843606)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-591.9077518785152,-88.80251031843606)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-591.9077518785152,-88.80251031843606)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-591.9077518785152,-88.80251031843606)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-530.1743706438358,-12.121059617226933)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-530.1743706438358,-12.121059617226933)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-530.1743706438358,-12.121059617226933)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-530.1743706438358,-12.121059617226933)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-352.6809898497994,-335.825251626621)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-352.6809898497994,-335.825251626621)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-352.6809898497994,-335.825251626621)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-352.6809898497994,-335.825251626621)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-346.8786690809549,-303.1835187209564)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-346.8786690809549,-303.1835187209564)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-346.8786690809549,-303.1835187209564)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-346.8786690809549,-303.1835187209564)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-333.42645782022754,-287.1223063523905)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-333.42645782022754,-287.1223063523905)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-333.42645782022754,-287.1223063523905)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-333.42645782022754,-287.1223063523905)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-358.59257605715914,-110.25655719099063)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-358.59257605715914,-110.25655719099063)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-358.59257605715914,-110.25655719099063)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-358.59257605715914,-110.25655719099063)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-438.60763164666656,-394.51550983872653)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-438.60763164666656,-394.51550983872653)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-438.60763164666656,-394.51550983872653)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-438.60763164666656,-394.51550983872653)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-399.7594607276037,-369.588755100601)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-399.7594607276037,-369.588755100601)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-399.7594607276037,-369.588755100601)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-399.7594607276037,-369.588755100601)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-383.208257084548,-101.15108779814506)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-383.208257084548,-101.15108779814506)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-383.208257084548,-101.15108779814506)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-383.208257084548,-101.15108779814506)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-395.40518219085044,-121.16322683110589)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-395.40518219085044,-121.16322683110589)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-395.40518219085044,-121.16322683110589)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-395.40518219085044,-121.16322683110589)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-500.57329791348513,-91.17734679772214)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-500.57329791348513,-91.17734679772214)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-500.57329791348513,-91.17734679772214)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-500.57329791348513,-91.17734679772214)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-286.262055741299,-226.60182127470108)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-286.262055741299,-226.60182127470108)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-286.262055741299,-226.60182127470108)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-286.262055741299,-226.60182127470108)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-300.39965335601545,-265.92353026808144)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-300.39965335601545,-265.92353026808144)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-300.39965335601545,-265.92353026808144)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-300.39965335601545,-265.92353026808144)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-302.56467137715293,-245.7264310902551)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-302.56467137715293,-245.7264310902551)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-302.56467137715293,-245.7264310902551)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-302.56467137715293,-245.7264310902551)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-325.67088120983846,-190.7781538420306)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-325.67088120983846,-190.7781538420306)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-325.67088120983846,-190.7781538420306)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-325.67088120983846,-190.7781538420306)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-231.95039486358186,-149.50520168843025)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-231.95039486358186,-149.50520168843025)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-231.95039486358186,-149.50520168843025)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-231.95039486358186,-149.50520168843025)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-687.3609717861925,130.11699897325116)
+setTrap(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-687.3609717861925,130.11699897325116)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-687.3609717861925,130.11699897325116)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-687.3609717861925,130.11699897325116)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-417.92387022817906,130.45903784343804)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-417.92387022817906,130.45903784343804)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-417.92387022817906,130.45903784343804)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-417.92387022817906,130.45903784343804)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-441.9130124118219,122.9526316075895)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-441.9130124118219,122.9526316075895)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-441.9130124118219,122.9526316075895)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-441.9130124118219,122.9526316075895)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-321.781641048365,82.7230765381901)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-321.781641048365,82.7230765381901)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-321.781641048365,82.7230765381901)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-321.781641048365,82.7230765381901)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(71.43851274319489,-252.99303288406892)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(71.43851274319489,-252.99303288406892)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(71.43851274319489,-252.99303288406892)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(71.43851274319489,-252.99303288406892)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(95.22938748414485,-341.9320972965068)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(95.22938748414485,-341.9320972965068)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(95.22938748414485,-341.9320972965068)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(95.22938748414485,-341.9320972965068)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(117.29747244580439,-282.8338886322922)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(117.29747244580439,-282.8338886322922)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(117.29747244580439,-282.8338886322922)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(117.29747244580439,-282.8338886322922)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(61.221416199713175,-2.4239888672477097)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(61.221416199713175,-2.4239888672477097)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(61.221416199713175,-2.4239888672477097)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(61.221416199713175,-2.4239888672477097)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(65.0947986735451,-288.35427784823037)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(65.0947986735451,-288.35427784823037)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(65.0947986735451,-288.35427784823037)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(65.0947986735451,-288.35427784823037)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(13.667717659766698,-357.2940482288187)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(13.667717659766698,-357.2940482288187)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(13.667717659766698,-357.2940482288187)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(13.667717659766698,-357.2940482288187)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-37.65771779096182,-372.2712804999169)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-37.65771779096182,-372.2712804999169)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-37.65771779096182,-372.2712804999169)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-37.65771779096182,-372.2712804999169)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-53.51778345060645,-319.31391661981013)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-53.51778345060645,-319.31391661981013)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-53.51778345060645,-319.31391661981013)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-53.51778345060645,-319.31391661981013)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(3.5124370302135675,-355.84191423607933)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(3.5124370302135675,-355.84191423607933)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(3.5124370302135675,-355.84191423607933)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(3.5124370302135675,-355.84191423607933)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(7.083003129510324,-336.21694719603505)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(7.083003129510324,-336.21694719603505)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(7.083003129510324,-336.21694719603505)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(7.083003129510324,-336.21694719603505)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-0.23253185074810354,-349.6150465991198)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-0.23253185074810354,-349.6150465991198)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-0.23253185074810354,-349.6150465991198)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-0.23253185074810354,-349.6150465991198)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(1.9730981820701137,-345.0620800916003)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(1.9730981820701137,-345.0620800916003)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(1.9730981820701137,-345.0620800916003)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(1.9730981820701137,-345.0620800916003)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(5.392700557590574,-339.76611609444586)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(5.392700557590574,-339.76611609444586)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(5.392700557590574,-339.76611609444586)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(5.392700557590574,-339.76611609444586)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(0.697595552244311,-356.0954199636799)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(0.697595552244311,-356.0954199636799)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(0.697595552244311,-356.0954199636799)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(0.697595552244311,-356.0954199636799)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(6.665462396423974,-354.8673747683189)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(6.665462396423974,-354.8673747683189)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(6.665462396423974,-354.8673747683189)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(6.665462396423974,-354.8673747683189)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(43.91539099653456,-372.128960243088)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(43.91539099653456,-372.128960243088)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(43.91539099653456,-372.128960243088)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(43.91539099653456,-372.128960243088)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(49.3480946868414,-373.08964329158823)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(49.3480946868414,-373.08964329158823)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(49.3480946868414,-373.08964329158823)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(49.3480946868414,-373.08964329158823)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(34.65335763685505,-369.6583266859789)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(34.65335763685505,-369.6583266859789)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(34.65335763685505,-369.6583266859789)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(34.65335763685505,-369.6583266859789)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(55.47935773715663,-376.7465349982656)
+setTrap(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(55.47935773715663,-376.7465349982656)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(55.47935773715663,-376.7465349982656)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(55.47935773715663,-376.7465349982656)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(58.59910291518609,-374.5417716768148)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(58.59910291518609,-374.5417716768148)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(58.59910291518609,-374.5417716768148)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(58.59910291518609,-374.5417716768148)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(27.98186947868791,-364.13887689086573)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(27.98186947868791,-364.13887689086573)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(27.98186947868791,-364.13887689086573)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(27.98186947868791,-364.13887689086573)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(20.52348825030676,-360.4985337368409)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(20.52348825030676,-360.4985337368409)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(20.52348825030676,-360.4985337368409)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(20.52348825030676,-360.4985337368409)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-129.2320385544236,-121.53673383353934)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-129.2320385544236,-121.53673383353934)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-129.2320385544236,-121.53673383353934)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-129.2320385544236,-121.53673383353934)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-130.0369449473466,-82.20655955804645)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-130.0369449473466,-82.20655955804645)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-130.0369449473466,-82.20655955804645)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-130.0369449473466,-82.20655955804645)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-146.1342896348265,-260.3211638089222)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-146.1342896348265,-260.3211638089222)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-146.1342896348265,-260.3211638089222)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-146.1342896348265,-260.3211638089222)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-167.5233701715071,-256.88064492299804)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-167.5233701715071,-256.88064492299804)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-167.5233701715071,-256.88064492299804)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-167.5233701715071,-256.88064492299804)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-165.1581922070596,-243.32981436146014)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-165.1581922070596,-243.32981436146014)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-165.1581922070596,-243.32981436146014)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-165.1581922070596,-243.32981436146014)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-193.05183479555083,-120.06219422228774)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-193.05183479555083,-120.06219422228774)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-193.05183479555083,-120.06219422228774)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-193.05183479555083,-120.06219422228774)
+size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-181.11862915501914,0.6508122995892522)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
+createMosquitos(1){
+setxy(-181.11862915501914,0.6508122995892522)
+size=2
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(32.10999999971875,-43.700000006197115)
+setxy(-181.11862915501914,0.6508122995892522)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(28.04999999987956,-50.00000000165983)
+setxy(-181.11862915501914,0.6508122995892522)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-99.02845114861489,-63.13942728566295)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(27.579999999716165,-24.600000003260902)
+setxy(-99.02845114861489,-63.13942728566295)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(15.84999999977299,-42.600000000447835)
+setxy(-99.02845114861489,-63.13942728566295)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(12.689999999793145,-48.300000003109744)
+setxy(-99.02845114861489,-63.13942728566295)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(35.24193895845366,-100.99764253223177)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(0.9599999998499698,-66.00000000389628)
+setxy(35.24193895845366,-100.99764253223177)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-0.029999999995311555,-3.500000005374204)
+setxy(35.24193895845366,-100.99764253223177)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(0.0,0.0)
+setxy(35.24193895845366,-100.99764253223177)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-32.72054485269855,-47.609914534871635)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-32.26000000005058,-623.3000000008815)
+setxy(-32.72054485269855,-47.609914534871635)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-31.020000000125947,-718.1000000002769)
+setxy(-32.72054485269855,-47.609914534871635)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-20.41000000012616,-702.3000000003776)
+setxy(-32.72054485269855,-47.609914534871635)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-0.8330137798130007,-255.51778406824022)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-21.660000000167656,-607.3999999998136)
+setxy(-0.8330137798130007,-255.51778406824022)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-32.26000000005058,-623.3000000008815)
+setxy(-0.8330137798130007,-255.51778406824022)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(242.5399999999911,-562.0000000021719)
+setxy(-0.8330137798130007,-255.51778406824022)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(32.83670299072715,-257.59399071990265)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(235.99999999994736,-515.2000000023804)
+setxy(32.83670299072715,-257.59399071990265)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(244.1999999998501,-384.9000000002434)
+setxy(32.83670299072715,-257.59399071990265)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(250.73999999989383,-431.70000000003483)
+setxy(32.83670299072715,-257.59399071990265)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(77.71331343303922,-117.22945909197779)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(242.5399999999911,-562.0000000021719)
+setxy(77.71331343303922,-117.22945909197779)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(183.35999999976593,-553.7000000046532)
+setxy(77.71331343303922,-117.22945909197779)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(187.37999999984822,-494.70000000439995)
+setxy(77.71331343303922,-117.22945909197779)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(34.40921440731029,-73.33919652787543)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(184.66000000003646,-474.6000000039885)
+setxy(34.40921440731029,-73.33919652787543)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(180.63999999995417,-533.6000000042418)
+setxy(34.40921440731029,-73.33919652787543)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(183.35999999976593,-553.7000000046532)
+setxy(34.40921440731029,-73.33919652787543)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(245.22667571531363,-107.48950908825738)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(226.89999999983002,-1387.3000000046432)
+setxy(245.22667571531363,-107.48950908825738)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(220.21999999992659,-912.7000000006547)
+setxy(245.22667571531363,-107.48950908825738)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(249.99999999977263,-865.9000000008632)
+setxy(245.22667571531363,-107.48950908825738)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(263.07576686967695,-288.3663567555709)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(254.27999999969586,-1194.500000003984)
+setxy(263.07576686967695,-288.3663567555709)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(256.2299999997464,-1348.0000000001269)
+setxy(263.07576686967695,-288.3663567555709)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(226.89999999983002,-1387.3000000046432)
+setxy(263.07576686967695,-288.3663567555709)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(245.4013735228553,-130.60264095500818)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(309.7499999999087,-505.70000000504933)
+setxy(245.4013735228553,-130.60264095500818)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(312.37999999973454,-521.3000000026113)
+setxy(245.4013735228553,-130.60264095500818)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(314.3899999997757,-482.5000000039381)
+setxy(245.4013735228553,-130.60264095500818)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(244.1211246228642,-357.84776975644724)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(315.8299999999059,-491.8000000060374)
+setxy(244.1211246228642,-357.84776975644724)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(321.7199999998144,-387.4000000010369)
+setxy(244.1211246228642,-357.84776975644724)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(323.7299999998555,-399.30000000509835)
+setxy(244.1211246228642,-357.84776975644724)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(186.28919311225158,-375.0221179056615)
+setTrap(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(325.5199999998126,-366.80000000188784)
+setxy(186.28919311225158,-375.0221179056615)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(331.41999999983796,-401.30000000004884)
+setxy(186.28919311225158,-375.0221179056615)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(321.58999999971627,-585.2000000032831)
+setxy(186.28919311225158,-375.0221179056615)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(219.88178692019028,-354.0006146741795)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(319.3499999998295,-571.7000000018402)
+setxy(219.88178692019028,-354.0006146741795)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(314.83999999970536,-656.7000000003986)
+setxy(219.88178692019028,-354.0006146741795)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(309.06000000001654,-627.7000000025623)
+setxy(219.88178692019028,-354.0006146741795)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(223.85867962974095,-344.2452049120273)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(308.10999999992816,-644.6000000011054)
+setxy(223.85867962974095,-344.2452049120273)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(302.9599999997856,-613.7000000023818)
+setxy(223.85867962974095,-344.2452049120273)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(309.7499999999087,-505.70000000504933)
+setxy(223.85867962974095,-344.2452049120273)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(220.16294833612034,-345.3748411706332)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(330.29999999989457,-602.2000000029948)
+setxy(220.16294833612034,-345.3748411706332)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(337.33999999974174,-542.6000000028353)
+setxy(220.16294833612034,-345.3748411706332)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(340.40999999973565,-583.900000002302)
+setxy(220.16294833612034,-345.3748411706332)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(224.55809632848803,-348.27053801920914)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(333.38000000000534,-643.5000000024615)
+setxy(224.55809632848803,-348.27053801920914)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(330.29999999989457,-602.2000000029948)
+setxy(224.55809632848803,-348.27053801920914)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(334.29999999974314,179.2999999992162)
+setxy(224.55809632848803,-348.27053801920914)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(196.80328758557613,-357.2028699245067)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(321.779999999805,272.6999999964619)
+setxy(196.80328758557613,-357.2028699245067)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(327.16999999991003,354.999999998995)
+setxy(196.80328758557613,-357.2028699245067)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(324.26999999977113,376.69999999678794)
+setxy(196.80328758557613,-357.2028699245067)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(186.37049468359575,-361.06139309297964)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(326.07999999996196,404.3999999936432)
+setxy(186.37049468359575,-361.06139309297964)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(328.87999999999806,383.5999999992623)
+setxy(186.37049468359575,-361.06139309297964)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(337.63999999969485,517.0999999961623)
+setxy(186.37049468359575,-361.06139309297964)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(209.3210338645992,-365.4776044363421)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(350.2799999999695,422.89999999667316)
+setxy(209.3210338645992,-365.4776044363421)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(348.7699999997318,399.99999999906777)
+setxy(209.3210338645992,-365.4776044363421)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(334.29999999974314,179.2999999992162)
+setxy(209.3210338645992,-365.4776044363421)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(193.98350913423846,-369.8162191333037)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(317.40999999989583,2545.5999999977053)
+setxy(193.98350913423846,-369.8162191333037)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(317.87999999970395,2521.099999995613)
+setxy(193.98350913423846,-369.8162191333037)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(324.110000000033,2044.6999999990112)
+setxy(193.98350913423846,-369.8162191333037)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(229.89775070148474,-336.22362124029496)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(329.99999999994145,2019.499999995844)
+setxy(229.89775070148474,-336.22362124029496)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(336.3000000000227,2060.399999997742)
+setxy(229.89775070148474,-336.22362124029496)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(336.74999999995237,2063.6999999936734)
+setxy(229.89775070148474,-336.22362124029496)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(200.07225206205794,-350.8472718343604)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(343.5399999997202,2038.8999999951807)
+setxy(200.07225206205794,-350.8472718343604)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(362.02000000002954,2098.19999999894)
+setxy(200.07225206205794,-350.8472718343604)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(372.8399999999965,2117.2999999947706)
+setxy(200.07225206205794,-350.8472718343604)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(178.2724305857826,-378.0220123571538)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(373.7499999999727,2118.5999999957517)
+setxy(178.2724305857826,-378.0220123571538)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(373.73999999985585,2123.9999999949077)
+setxy(178.2724305857826,-378.0220123571538)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(372.7800000000059,2195.6999999943605)
+setxy(178.2724305857826,-378.0220123571538)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(215.94569159436443,-351.7212264079427)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(371.3199999999972,2344.2999999971903)
+setxy(215.94569159436443,-351.7212264079427)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(368.42999999997517,2581.899999995585)
+setxy(215.94569159436443,-351.7212264079427)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(367.9499999996949,2621.399999995333)
+setxy(215.94569159436443,-351.7212264079427)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(181.00840967113788,-185.46092798759153)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(363.43999999992604,2614.3999999987955)
+setxy(181.00840967113788,-185.46092798759153)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(363.90999999973417,2585.6999999973596)
+setxy(181.00840967113788,-185.46092798759153)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(359.849999999895,2578.799999994885)
+setxy(181.00840967113788,-185.46092798759153)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(167.77464432823317,-172.59383246435013)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(359.3799999997316,2608.0999999962273)
+setxy(167.77464432823317,-172.59383246435013)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(355.3199999998924,2601.799999993659)
+setxy(167.77464432823317,-172.59383246435013)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(317.40999999989583,2545.5999999977053)
+setxy(167.77464432823317,-172.59383246435013)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(220.5203478382839,-133.3760210340023)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(261.7499999999495,2077.1999999951163)
+setxy(220.5203478382839,-133.3760210340023)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(263.1899999997245,1959.4999999981155)
+setxy(220.5203478382839,-133.3760210340023)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(273.11999999994896,1973.499999998296)
+setxy(220.5203478382839,-133.3760210340023)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(164.17025876663155,-270.726665671182)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(271.67999999981873,2091.4999999988027)
+setxy(164.17025876663155,-270.726665671182)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(261.7499999999495,2077.1999999951163)
+setxy(164.17025876663155,-270.726665671182)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-30.590000000074724,1875.3999999958637)
+setxy(164.17025876663155,-270.726665671182)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(147.54629981961835,-135.26846318291155)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-20.310000000023365,2026.1999999959812)
+setxy(147.54629981961835,-135.26846318291155)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-21.219999999999573,2040.1999999961618)
+setxy(147.54629981961835,-135.26846318291155)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-37.92000000011342,2015.799999995238)
+setxy(147.54629981961835,-135.26846318291155)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(164.96098597824724,-158.69474000072628)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-36.95000000014659,1927.5999999948112)
+setxy(164.96098597824724,-158.69474000072628)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-30.590000000074724,1875.3999999958637)
+setxy(164.96098597824724,-158.69474000072628)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-50.260000000079685,1605.3999999954272)
+setxy(164.96098597824724,-158.69474000072628)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(157.8918663360338,-164.21660959643611)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-43.11000000001286,1704.1999999989343)
+setxy(157.8918663360338,-164.21660959643611)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-48.560000000108516,1750.3999999988196)
+setxy(157.8918663360338,-164.21660959643611)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-44.540000000026225,1800.9999999932802)
+setxy(157.8918663360338,-164.21660959643611)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(117.28936670974953,-234.809833139121)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-50.90000000009809,1850.6999999985396)
+setxy(117.28936670974953,-234.809833139121)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-53.139999999984866,1824.1999999943914)
+setxy(117.28936670974953,-234.809833139121)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-60.31000000028541,1756.0000000003129)
+setxy(117.28936670974953,-234.809833139121)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(221.3939727967029,-260.03875132982034)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-58.48999999997773,1740.899999994383)
+setxy(221.3939727967029,-260.03875132982034)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-60.730000000219775,1714.2999999961717)
+setxy(221.3939727967029,-260.03875132982034)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-62.55000000017219,1731.8999999957896)
+setxy(221.3939727967029,-260.03875132982034)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(193.06730891126475,-197.27889478541908)
+setTrap(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-63.89999999996121,1718.3000000002835)
+setxy(193.06730891126475,-197.27889478541908)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-57.99000000017429,1669.699999993668)
+setxy(193.06730891126475,-197.27889478541908)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-50.260000000079685,1605.3999999954272)
+setxy(193.06730891126475,-197.27889478541908)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(207.2439820929841,-210.3881527876612)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-37.7200000002631,1741.6999999966265)
+setxy(207.2439820929841,-210.3881527876612)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-29.220000000051982,1863.00000000017)
+setxy(207.2439820929841,-210.3881527876612)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-30.590000000074724,1875.3999999958637)
+setxy(207.2439820929841,-210.3881527876612)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(194.5350262070882,-243.33807313988115)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-36.95000000014659,1927.5999999948112)
+setxy(194.5350262070882,-243.33807313988115)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-37.92000000011342,2015.799999995238)
+setxy(194.5350262070882,-243.33807313988115)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-38.37000000004309,2019.5999999970127)
+setxy(194.5350262070882,-243.33807313988115)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(202.84531409594754,-259.12996183624915)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-51.91000000017709,1995.9999999983324)
+setxy(202.84531409594754,-259.12996183624915)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-50.9300000000934,1902.7999999963185)
+setxy(202.84531409594754,-259.12996183624915)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-50.90000000009809,1850.6999999985396)
+setxy(202.84531409594754,-259.12996183624915)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(238.03793137430375,-148.06972663283298)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-44.540000000026225,1800.9999999932802)
+setxy(238.03793137430375,-148.06972663283298)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(-37.7200000002631,1741.6999999966265)
+setxy(238.03793137430375,-148.06972663283298)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(139.09999999981437,1899.3999999992184)
+setxy(238.03793137430375,-148.06972663283298)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(135.3039347000064,-116.60357515484715)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(133.22999999978435,1891.199999995763)
+setxy(135.3039347000064,-116.60357515484715)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(135.12999999996111,1767.6999999949317)
+setxy(135.3039347000064,-116.60357515484715)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(144.15999999997098,1781.099999995206)
+setxy(135.3039347000064,-116.60357515484715)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(122.28183604325514,-103.1124293280797)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(142.26999999991108,1895.1999999998748)
+setxy(122.28183604325514,-103.1124293280797)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(139.10999999993123,1890.099999997119)
+setxy(122.28183604325514,-103.1124293280797)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(139.09999999981437,1899.3999999992184)
+setxy(122.28183604325514,-103.1124293280797)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(293.5019931193937,-134.43867378041378)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(141.30999999970584,1961.5000000001714)
+setxy(293.5019931193937,-134.43867378041378)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(140.82000000001926,2013.2999999944445)
+setxy(293.5019931193937,-134.43867378041378)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(136.7599999998248,2007.1999999942136)
+setxy(293.5019931193937,-134.43867378041378)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(319.4187037565952,-242.21951211471372)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(128.18999999986147,1994.5999999961828)
+setxy(319.4187037565952,-242.21951211471372)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(129.129999999833,1942.8999999959728)
+setxy(319.4187037565952,-242.21951211471372)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(138.149999999726,1956.7999999949848)
+setxy(319.4187037565952,-242.21951211471372)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(309.314592772178,-175.60584084700267)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(139.09999999981437,1899.3999999992184)
+setxy(309.314592772178,-175.60584084700267)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(139.10999999993123,1890.099999997119)
+setxy(309.314592772178,-175.60584084700267)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(142.26999999991108,1895.1999999998748)
+setxy(309.314592772178,-175.60584084700267)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(313.39889412653326,-131.93947508374168)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(141.77999999986923,1940.5999999975165)
+setxy(313.39889412653326,-131.93947508374168)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(141.30999999970584,1961.5000000001714)
+setxy(313.39889412653326,-131.93947508374168)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(59.979999999981715,1987.6999999937084)
+setxy(313.39889412653326,-131.93947508374168)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(284.03817128596586,-241.72805272182887)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(64.06999999981622,1953.6000000002218)
+setxy(284.03817128596586,-241.72805272182887)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(65.41999999996051,1970.199999995259)
+setxy(284.03817128596586,-241.72805272182887)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(65.86999999989018,1965.699999999515)
+setxy(284.03817128596586,-241.72805272182887)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(268.62255127247533,-145.28124070674426)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(67.20999999991761,1983.1999999979644)
+setxy(268.62255127247533,-145.28124070674426)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(61.320000000009145,2012.5999999933697)
+setxy(268.62255127247533,-145.28124070674426)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(61.320000000009145,2011.699999997063)
+setxy(268.62255127247533,-145.28124070674426)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(345.43261914441894,-229.82631837870312)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(59.979999999981715,1987.6999999937084)
+setxy(345.43261914441894,-229.82631837870312)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(68.13000000001068,1969.79999999769)
+setxy(345.43261914441894,-229.82631837870312)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(66.78999999998325,1950.499999999522)
+setxy(345.43261914441894,-229.82631837870312)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(309.57618621624124,-104.27772385234175)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(65.41999999996051,1961.5000000001714)
+setxy(309.57618621624124,-104.27772385234175)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(57.37999999979593,1847.9999999954089)
+setxy(309.57618621624124,-104.27772385234175)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(65.5599999998202,1780.7999999988056)
+setxy(309.57618621624124,-104.27772385234175)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(288.85270233914184,-111.28635242585382)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(75.39999999970348,1913.8999999981365)
+setxy(288.85270233914184,-111.28635242585382)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(68.13000000001068,1969.79999999769)
+setxy(288.85270233914184,-111.28635242585382)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(74.73999999980663,2191.1999999986165)
+setxy(288.85270233914184,-111.28635242585382)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(301.0701891142443,-105.55861844145521)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(58.03999999969278,2172.6999999955865)
+setxy(301.0701891142443,-105.55861844145521)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(58.50999999985618,2152.3999999999432)
+setxy(301.0701891142443,-105.55861844145521)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(59.46999999970615,2068.9999999987663)
+setxy(301.0701891142443,-105.55861844145521)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(305.42153507937263,-105.31335602303332)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(60.41000000003294,2017.2999999985564)
+setxy(305.42153507937263,-105.31335602303332)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(61.320000000009145,2011.699999997063)
+setxy(305.42153507937263,-105.31335602303332)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(61.320000000009145,2012.5999999933697)
+setxy(305.42153507937263,-105.31335602303332)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(348.98845183925374,-127.94996856270654)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(67.20999999991761,1983.1999999979644)
+setxy(348.98845183925374,-127.94996856270654)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(78.09999999999206,1923.9999999953739)
+setxy(348.98845183925374,-127.94996856270654)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(77.11999999990837,2027.0999999993933)
+setxy(348.98845183925374,-127.94996856270654)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-127.28334866737046,39.773936961796004)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(74.73999999980663,2191.1999999986165)
+setxy(-127.28334866737046,39.773936961796004)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(58.50999999985618,2152.3999999999432)
+setxy(-127.28334866737046,39.773936961796004)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(28.27999999972519,2105.299999996646)
+setxy(-127.28334866737046,39.773936961796004)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-46.39054131223505,133.47007519026945)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(27.389999999982706,2078.8999999936664)
+setxy(-46.39054131223505,133.47007519026945)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(52.379999999985216,1883.799999994551)
+setxy(-46.39054131223505,133.47007519026945)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(56.84999999999718,1953.299999996716)
+setxy(-46.39054131223505,133.47007519026945)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-193.65447888833762,61.47378706502184)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(55.47999999997444,1965.3999999960092)
+setxy(-193.65447888833762,61.47378706502184)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(58.60999999995897,2012.399999998138)
+setxy(-193.65447888833762,61.47378706502184)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(57.66999999998745,2066.4999999979727)
+setxy(-193.65447888833762,61.47378706502184)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-81.14467615754903,101.35863950009296)
+setTrap(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(59.46999999970615,2068.9999999987663)
+setxy(-81.14467615754903,101.35863950009296)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(58.50999999985618,2152.3999999999432)
+setxy(-81.14467615754903,101.35863950009296)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(386.8088416871111,139.80193132514924)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(123.06999999971424,2197.2999999988474)
+setxy(386.8088416871111,139.80193132514924)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(122.59999999990612,2226.0000000002833)
+setxy(386.8088416871111,139.80193132514924)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(360.1874709159772,110.77403451447104)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(116.27999999994643,2215.8999999959406)
+setxy(360.1874709159772,110.77403451447104)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(114.01999999982593,2212.999999997578)
+setxy(360.1874709159772,110.77403451447104)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(393.15183563567024,128.4587478655688)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(115.43999999972243,2129.599999996401)
+setxy(393.15183563567024,128.4587478655688)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(115.90999999988583,2097.9999999966026)
+setxy(393.15183563567024,128.4587478655688)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(392.3212490517898,125.4599664826482)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(116.87999999985266,2019.899999993413)
+setxy(392.3212490517898,125.4599664826482)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(119.57999999978597,2023.7999999963563)
+setxy(392.3212490517898,125.4599664826482)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(415.4331250536545,-188.01902941317147)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(119.1299999998563,2029.9999999977558)
+setxy(415.4331250536545,-188.01902941317147)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(125.43999999969913,2039.1999999986865)
+setxy(415.4331250536545,-188.01902941317147)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(437.92232312487266,81.53787178117075)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(124.969999999891,2069.699999999841)
+setxy(437.92232312487266,81.53787178117075)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(125.86999999975035,2071.599999993623)
+setxy(437.92232312487266,81.53787178117075)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(436.95315968812093,97.44647582671404)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(125.39999999994222,2105.299999996646)
+setxy(436.95315968812093,97.44647582671404)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(124.48999999996602,2103.7999999933277)
+setxy(436.95315968812093,97.44647582671404)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(415.228740900851,93.09186436297261)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(123.5499999999945,2160.4999999951247)
+setxy(415.228740900851,93.09186436297261)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(124.89999999978352,2162.699999999518)
+setxy(415.228740900851,93.09186436297261)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(408.50627007741497,100.05289185955618)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(124.41999999985853,2199.1999999997347)
+setxy(408.50627007741497,100.05289185955618)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(123.06999999971424,2197.2999999988474)
+setxy(408.50627007741497,100.05289185955618)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(433.9106019854048,92.39442729765688)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(117.91999999992697,1825.199999998972)
+setxy(433.9106019854048,92.39442729765688)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(116.97999999995545,1884.3999999944572)
+setxy(433.9106019854048,92.39442729765688)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(437.8133662771749,133.1835183098448)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(115.54999999994209,1975.500000000352)
+setxy(437.8133662771749,133.1835183098448)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(114.59999999985371,2046.0999999940555)
+setxy(437.8133662771749,133.1835183098448)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(462.1618649462604,102.88060712636204)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(105.11999999991417,2031.4999999939687)
+setxy(462.1618649462604,102.88060712636204)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(107.99999999981935,1810.700000000054)
+setxy(462.1618649462604,102.88060712636204)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(430.9632890159853,137.6009068809758)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(117.91999999992697,1825.199999998972)
+setxy(430.9632890159853,137.6009068809758)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(82.18999999982657,1884.7999999991316)
+setxy(430.9632890159853,137.6009068809758)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(437.71488251063533,146.37853839671556)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(84.58999999980676,1695.8999999943103)
+setxy(437.71488251063533,146.37853839671556)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(93.16999999988695,1707.6999999972031)
+setxy(437.71488251063533,146.37853839671556)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(440.7028986267375,105.85670384808324)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(91.21999999983643,1896.2999999985186)
+setxy(440.7028986267375,105.85670384808324)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(82.18999999982657,1884.7999999991316)
+setxy(440.7028986267375,105.85670384808324)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(448.47302691212735,92.15236560677674)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(102.65999999994335,1695.59999999791)
+setxy(448.47302691212735,92.15236560677674)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(104.91999999970858,1699.0999999961787)
+setxy(448.47302691212735,92.15236560677674)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(430.5551548610076,85.76254670011055)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(102.00999999980809,1962.4999999976467)
+setxy(430.5551548610076,85.76254670011055)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(90.72999999979459,1946.799999998916)
+setxy(430.5551548610076,85.76254670011055)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(456.6830929696465,95.13565467411608)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(94.08999999998002,1683.799999995017)
+setxy(456.6830929696465,95.13565467411608)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(102.65999999994335,1695.59999999791)
+setxy(456.6830929696465,95.13565467411608)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(440.5819887593824,126.33058333381314)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(131.51999999969632,1768.299999994838)
+setxy(440.5819887593824,126.33058333381314)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(129.129999999833,1942.8999999959728)
+setxy(440.5819887593824,126.33058333381314)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(452.10215013210683,98.29117938869078)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(128.18999999986147,1994.5999999961828)
+setxy(452.10215013210683,98.29117938869078)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(115.54999999994209,1975.500000000352)
+setxy(452.10215013210683,98.29117938869078)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(430.65831018532884,118.97240911360089)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(116.97999999995545,1884.3999999944572)
+setxy(430.65831018532884,118.97240911360089)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(117.8799999998148,1885.6999999954382)
+setxy(430.65831018532884,118.97240911360089)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(432.8802487734373,49.33256972638969)
+setTrap(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(119.78999999975315,1750.8999999975572)
+setxy(432.8802487734373,49.33256972638969)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(131.51999999969632,1768.299999994838)
+setxy(432.8802487734373,49.33256972638969)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(411.6316452485947,86.19428046039155)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(215.8299999997837,1985.699999998758)
+setxy(411.6316452485947,86.19428046039155)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(193.2699999997567,1953.299999996716)
+setxy(411.6316452485947,86.19428046039155)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(429.22258753706444,79.23372824426906)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(193.75999999979854,1896.7999999972562)
+setxy(429.22258753706444,79.23372824426906)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(194.23999999972352,1853.4999999957336)
+setxy(429.22258753706444,79.23372824426906)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(418.25066458811216,65.26637886515584)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(208.2299999997872,1871.3999999988573)
+setxy(418.25066458811216,65.26637886515584)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(208.25000000002092,1851.2999999984459)
+setxy(418.25066458811216,65.26637886515584)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(427.6152519079907,75.87768814114351)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(215.91999999976963,1861.5999999980204)
+setxy(427.6152519079907,75.87768814114351)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(215.91999999976963,1861.8000000003576)
+setxy(427.6152519079907,75.87768814114351)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(421.1984621499727,70.69178609185087)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(215.91999999976963,1862.099999996758)
+setxy(421.1984621499727,70.69178609185087)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(216.3699999996993,1862.499999994327)
+setxy(421.1984621499727,70.69178609185087)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(459.21992007628285,75.96914379296193)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(216.3699999996993,1862.7999999978329)
+setxy(459.21992007628285,75.96914379296193)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(216.3699999996993,1863.0999999942333)
+setxy(459.21992007628285,75.96914379296193)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(454.6655286349957,60.32457659433985)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(216.3699999996993,1863.399999997739)
+setxy(454.6655286349957,60.32457659433985)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(216.3699999996993,1863.6999999941395)
+setxy(454.6655286349957,60.32457659433985)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(460.6794987433896,67.22664310216605)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(216.81999999998425,1864.2999999940457)
+setxy(460.6794987433896,67.22664310216605)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(216.81999999998425,1864.5999999975515)
+setxy(460.6794987433896,67.22664310216605)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(462.2589516289728,53.95782891008643)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(216.81999999998425,1865.1999999974578)
+setxy(462.2589516289728,53.95782891008643)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(216.81999999998425,1865.4999999938582)
+setxy(462.2589516289728,53.95782891008643)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(459.83048557150215,85.76112812172762)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(216.81999999998425,1866.0999999937644)
+setxy(459.83048557150215,85.76112812172762)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(216.81999999998425,1866.6999999936706)
+setxy(459.83048557150215,85.76112812172762)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(454.1653129271381,91.37954410297402)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.26999999991392,1867.2999999935769)
+setxy(454.1653129271381,91.37954410297402)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.26999999991392,1867.5999999970827)
+setxy(454.1653129271381,91.37954410297402)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(451.35796940979736,83.50268081292063)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.26999999991392,1868.199999996989)
+setxy(451.35796940979736,83.50268081292063)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.26999999991392,1869.0999999932956)
+setxy(451.35796940979736,83.50268081292063)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(448.3961387438855,63.45670228507423)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.26999999991392,1869.7000000003072)
+setxy(448.3961387438855,63.45670228507423)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.26999999991392,1870.3000000002135)
+setxy(448.3961387438855,63.45670228507423)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(451.2717576806317,69.40708955454122)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.7199999998436,1870.9999999941829)
+setxy(451.2717576806317,69.40708955454122)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.7199999998436,1871.599999994089)
+setxy(451.2717576806317,69.40708955454122)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(443.95577909839176,87.91662011130772)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.7199999998436,1872.4999999975012)
+setxy(443.95577909839176,87.91662011130772)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.7199999998436,1873.0999999974074)
+setxy(443.95577909839176,87.91662011130772)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(444.4916934433273,67.31144432254017)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.7199999998436,1873.999999993714)
+setxy(444.4916934433273,67.31144432254017)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.7199999998436,1874.5999999936203)
+setxy(444.4916934433273,67.31144432254017)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(440.6575919906246,78.20437141226041)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.7199999998436,1875.4999999970323)
+setxy(440.6575919906246,78.20437141226041)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.16999999977327,1876.399999993339)
+setxy(440.6575919906246,78.20437141226041)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(463.1211233571578,72.4075707353809)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.16999999977327,1877.299999996751)
+setxy(463.1211233571578,72.4075707353809)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.16999999977327,1877.8999999966572)
+setxy(463.1211233571578,72.4075707353809)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(413.0875808015067,129.238453906548)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.16999999977327,1878.8000000000693)
+setxy(413.0875808015067,129.238453906548)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.16999999977327,1879.699999996376)
+setxy(413.0875808015067,129.238453906548)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(421.11525668130065,114.80850494642135)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.16999999977327,1880.599999999788)
+setxy(421.11525668130065,114.80850494642135)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.16000000001168,1881.4999999960946)
+setxy(421.11525668130065,114.80850494642135)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(427.4755146554301,111.00057545209945)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.16000000001168,1882.3999999995067)
+setxy(427.4755146554301,111.00057545209945)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.16000000001168,1883.2999999958133)
+setxy(427.4755146554301,111.00057545209945)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(424.9865281947024,123.38183240808806)
+setTrap(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.16000000001168,1884.1999999992254)
+setxy(424.9865281947024,123.38183240808806)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.60999999994135,1885.099999995532)
+setxy(424.9865281947024,123.38183240808806)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(420.91476636421,144.11200924813815)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.60999999994135,1885.999999998944)
+setxy(420.91476636421,144.11200924813815)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.60999999994135,1887.1999999987565)
+setxy(420.91476636421,144.11200924813815)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(421.39065882758837,129.9029147628)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.60999999994135,1888.0999999950632)
+setxy(421.39065882758837,129.9029147628)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.60999999994135,1888.9999999984752)
+setxy(421.39065882758837,129.9029147628)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(418.64241220745424,136.3643184191113)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.60999999994135,1889.8999999947819)
+setxy(418.64241220745424,136.3643184191113)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.60999999994135,1891.0999999945943)
+setxy(418.64241220745424,136.3643184191113)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(409.1153360099199,109.4375526692854)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.60999999994135,1891.9999999980064)
+setxy(409.1153360099199,109.4375526692854)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.60999999994135,1892.899999994313)
+setxy(409.1153360099199,109.4375526692854)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(412.7859760882218,102.44732501459225)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.60999999994135,1894.0999999941255)
+setxy(412.7859760882218,102.44732501459225)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.60999999994135,1894.9999999975375)
+setxy(412.7859760882218,102.44732501459225)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(418.9760023220933,103.26133578751819)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.60999999994135,1895.8999999938442)
+setxy(418.9760023220933,103.26133578751819)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.5999999998245,1897.0999999936566)
+setxy(418.9760023220933,103.26133578751819)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(456.004722248357,148.71043623479315)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.5999999998245,1897.9999999970687)
+setxy(456.004722248357,148.71043623479315)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.5999999998245,1898.8999999933753)
+setxy(456.004722248357,148.71043623479315)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(460.5770505836502,120.4427821703811)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(218.5999999998245,1900.1000000002932)
+setxy(460.5770505836502,120.4427821703811)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(217.62999999985766,1987.9999999972142)
+setxy(460.5770505836502,120.4427821703811)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(448.1310186376584,140.37270093210117)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(215.8299999997837,1985.699999998758)
+setxy(448.1310186376584,140.37270093210117)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(191.35999999981834,2088.6999999945033)
+setxy(448.1310186376584,140.37270093210117)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(359.8917021895436,-242.68650900941543)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(195.86999999994248,2095.09999999824)
+setxy(359.8917021895436,-242.68650900941543)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(195.39999999977908,2127.599999994345)
+setxy(359.8917021895436,-242.68650900941543)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-825.6735131599214,-168.31815513871342)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(197.19999999985305,2130.1999999963073)
+setxy(-825.6735131599214,-168.31815513871342)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(197.65999999989958,2113.5000000001014)
+setxy(-825.6735131599214,-168.31815513871342)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-821.9623234865869,-109.37243807059923)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(198.5699999998758,2114.699999999914)
+setxy(-821.9623234865869,-109.37243807059923)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(205.33999999976515,2124.599999994814)
+setxy(-821.9623234865869,-109.37243807059923)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(153.1297421254279,-200.43407018351093)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(204.85999999984017,2152.3999999999432)
+setxy(153.1297421254279,-200.43407018351093)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(204.85999999984017,2157.0999999980245)
+setxy(153.1297421254279,-200.43407018351093)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-36.21218544057176,-116.51203239683544)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(211.62999999972953,2166.699999996524)
+setxy(-36.21218544057176,-116.51203239683544)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(210.17999999983772,2298.499999994874)
+setxy(-36.21218544057176,-116.51203239683544)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-179.02332558321746,90.9691031029203)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(208.37000000000216,2296.2999999975864)
+setxy(-179.02332558321746,90.9691031029203)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(207.87999999996032,2353.3999999969524)
+setxy(-179.02332558321746,90.9691031029203)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-94.33225185473273,124.65482153804851)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(192.52999999999076,2331.6999999991594)
+setxy(-94.33225185473273,124.65482153804851)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(188.4699999997963,2325.700000000097)
+setxy(-94.33225185473273,124.65482153804851)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-46.24987780949803,88.45476148074724)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(190.8699999997765,2137.399999995182)
+setxy(-46.24987780949803,88.45476148074724)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(190.87999999989336,2129.899999999907)
+setxy(-46.24987780949803,88.45476148074724)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(127.17504719968645,-308.1370064179065)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(191.35999999981834,2088.6999999945033)
+setxy(127.17504719968645,-308.1370064179065)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(195.86999999994248,2095.09999999824)
+setxy(127.17504719968645,-308.1370064179065)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-337.4281670251192,-231.9078669466008)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(191.35999999981834,2088.6999999945033)
+setxy(-337.4281670251192,-231.9078669466008)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(191.83999999974333,2052.499999997792)
+setxy(-337.4281670251192,-231.9078669466008)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-718.1662924583136,59.05835992222667)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(192.80999999971016,1966.099999997084)
+setxy(-718.1662924583136,59.05835992222667)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(197.3199999998343,1972.199999997315)
+setxy(-718.1662924583136,59.05835992222667)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-94.11949876512155,-256.0940108924399)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(209.9499999999921,1989.9999999992701)
+setxy(-94.11949876512155,-256.0940108924399)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(213.10999999997193,1994.4999999950142)
+setxy(-94.11949876512155,-256.0940108924399)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-673.2066556813174,162.39565645953056)
+setTrap(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(212.63999999980854,2015.9999999975753)
+setxy(-673.2066556813174,162.39565645953056)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(211.20999999979517,2116.99999999837)
+setxy(-673.2066556813174,162.39565645953056)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-208.60530699206,-115.3772024630648)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(195.86999999994248,2095.09999999824)
+setxy(-208.60530699206,-115.3772024630648)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(193.2699999997567,1953.299999996716)
+setxy(-208.60530699206,-115.3772024630648)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-608.2381631581698,-3.0980015229483406)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(192.80999999971016,1966.099999997084)
+setxy(-608.2381631581698,-3.0980015229483406)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(191.83999999974333,2052.499999997792)
+setxy(-608.2381631581698,-3.0980015229483406)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-173.84328539428688,-45.36576624611909)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(191.35999999981834,2088.6999999945033)
+setxy(-173.84328539428688,-45.36576624611909)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(178.2699999999693,2069.3999999963353)
+setxy(-173.84328539428688,-45.36576624611909)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-509.9354654274868,-43.64821669194959)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(178.74999999989427,2033.7999999995304)
+setxy(-509.9354654274868,-43.64821669194959)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(180.67999999971107,1877.1999999955824)
+setxy(-509.9354654274868,-43.64821669194959)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-695.7571814952917,-136.67312152232444)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(186.5399999999795,1885.6999999954382)
+setxy(-695.7571814952917,-136.67312152232444)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(184.16999999999462,2041.69999999948)
+setxy(-695.7571814952917,-136.67312152232444)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-612.1768162393125,73.81461026950323)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(185.9699999997133,2044.2999999943368)
+setxy(-612.1768162393125,73.81461026950323)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(187.88999999976852,1888.1999999962318)
+setxy(-612.1768162393125,73.81461026950323)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(428.3800310700895,-187.1895600791589)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(193.75999999979854,1896.7999999972562)
+setxy(428.3800310700895,-187.1895600791589)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(193.2699999997567,1953.299999996716)
+setxy(428.3800310700895,-187.1895600791589)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(354.38122343984605,-162.14285495438855)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(139.85999999981402,2087.099999997122)
+setxy(354.38122343984605,-162.14285495438855)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(135.79999999997483,2081.0999999980595)
+setxy(354.38122343984605,-162.14285495438855)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(378.05563643115875,-195.99800584191846)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(136.7599999998248,2007.1999999942136)
+setxy(378.05563643115875,-195.99800584191846)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(140.82000000001926,2013.2999999944445)
+setxy(378.05563643115875,-195.99800584191846)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(383.37742334061454,-166.88979027689956)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(140.32999999997742,2063.799999994842)
+setxy(383.37742334061454,-166.88979027689956)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(139.85999999981402,2087.099999997122)
+setxy(383.37742334061454,-166.88979027689956)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(271.3203151351399,-332.8834830704745)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(162.26999999986447,2326.799999998741)
+setxy(271.3203151351399,-332.8834830704745)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(150.08999999999162,2306.6999999983295)
+setxy(271.3203151351399,-332.8834830704745)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(88.22221848056643,-358.51046319066126)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(152.02999999992528,2133.8999999969133)
+setxy(88.22221848056643,-358.51046319066126)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(152.02999999992528,2130.299999997476)
+setxy(88.22221848056643,-358.51046319066126)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-21.226519841284155,-242.81128323841287)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(153.45999999993865,2031.9999999998117)
+setxy(-21.226519841284155,-242.81128323841287)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(166.08999999974117,2050.999999994474)
+setxy(-21.226519841284155,-242.81128323841287)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(33.33015110484239,-352.9065070581686)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(162.74000000002786,2307.9999999993106)
+setxy(33.33015110484239,-352.9065070581686)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(162.26999999986447,2326.799999998741)
+setxy(33.33015110484239,-352.9065070581686)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-36.10601450774321,-204.75770775935067)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(168.13999999989448,2334.4999999963534)
+setxy(-36.10601450774321,-204.75770775935067)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(168.15000000001135,2315.89999999926)
+setxy(-36.10601450774321,-204.75770775935067)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-329.7983344430784,-358.48822890834515)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(162.74000000002786,2307.9999999993106)
+setxy(-329.7983344430784,-358.48822890834515)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(166.08999999974117,2050.999999994474)
+setxy(-329.7983344430784,-358.48822890834515)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-233.40634763231174,-211.80756457068173)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(178.2699999999693,2069.3999999963353)
+setxy(-233.40634763231174,-211.80756457068173)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(177.77999999992744,2119.2999999968265)
+setxy(-233.40634763231174,-211.80756457068173)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-508.4277323375287,57.51642934165979)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(174.9199999999007,2325.7999999941603)
+setxy(-508.4277323375287,57.51642934165979)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(174.90999999978385,2343.3999999937782)
+setxy(-508.4277323375287,57.51642934165979)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-1136.817842984903,-109.52587525609452)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(174.43999999997573,2360.7999999981644)
+setxy(-1136.817842984903,-109.52587525609452)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(167.6699999997311,2351.499999996065)
+setxy(-1136.817842984903,-109.52587525609452)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-804.3837641154656,30.36937782976469)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(168.13999999989448,2334.4999999963534)
+setxy(-804.3837641154656,30.36937782976469)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(152.02999999992528,2130.299999997476)
+setxy(-804.3837641154656,30.36937782976469)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-365.1310485107302,-158.30951017305955)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(146.15999999989526,2121.400000000051)
+setxy(-365.1310485107302,-158.30951017305955)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(147.58999999990863,2023.3999999987873)
+setxy(-365.1310485107302,-158.30951017305955)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-320.570718030554,-272.6342985484677)
+setTrap(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(153.45999999993865,2031.9999999998117)
+setxy(-320.570718030554,-272.6342985484677)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(152.02999999992528,2130.299999997476)
+setxy(-320.570718030554,-272.6342985484677)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-371.36878741748677,-316.56456647384965)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(174.90999999978385,2343.3999999937782)
+setxy(-371.36878741748677,-316.56456647384965)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(174.9199999999007,2325.7999999941603)
+setxy(-371.36878741748677,-316.56456647384965)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-245.00849150722192,-188.06240150118558)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(177.77999999992744,2119.2999999968265)
+setxy(-245.00849150722192,-188.06240150118558)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(178.2699999999693,2069.3999999963353)
+setxy(-245.00849150722192,-188.06240150118558)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-272.8437022595647,-182.0140493369761)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(191.35999999981834,2088.6999999945033)
+setxy(-272.8437022595647,-182.0140493369761)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(190.87999999989336,2129.899999999907)
+setxy(-272.8437022595647,-182.0140493369761)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-282.7996023183658,-212.4518360422145)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(190.8699999997765,2137.399999995182)
+setxy(-282.7996023183658,-212.4518360422145)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(188.4699999997963,2325.700000000097)
+setxy(-282.7996023183658,-212.4518360422145)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-197.93528552970756,-160.5707777439104)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(187.98999999987132,2360.999999993396)
+setxy(-197.93528552970756,-160.5707777439104)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(183.47999999974718,2354.599999996765)
+setxy(-197.93528552970756,-160.5707777439104)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-272.76448643615123,-61.69628443034414)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(185.9099999997227,2130.699999995045)
+setxy(-272.76448643615123,-61.69628443034414)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(182.29999999981317,2125.5999999993946)
+setxy(-272.76448643615123,-61.69628443034414)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-96.90716639189682,12.51322430813817)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(179.419999999908,2349.799999997515)
+setxy(-96.90716639189682,12.51322430813817)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(174.90999999978385,2343.3999999937782)
+setxy(-96.90716639189682,12.51322430813817)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-137.25542531508452,-34.80943037972767)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(168.48999999972136,1859.0999999972269)
+setxy(-137.25542531508452,-34.80943037972767)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(180.67999999971107,1877.1999999955824)
+setxy(-137.25542531508452,-34.80943037972767)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-143.63251680582727,-157.424120206116)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(178.74999999989427,2033.7999999995304)
+setxy(-143.63251680582727,-157.424120206116)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(178.2699999999693,2069.3999999963353)
+setxy(-143.63251680582727,-157.424120206116)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-108.91025029985519,-89.67964978698335)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(166.08999999974117,2050.999999994474)
+setxy(-108.91025029985519,-89.67964978698335)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(168.48999999972136,1859.0999999972269)
+setxy(-108.91025029985519,-89.67964978698335)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-76.19378407336873,-198.10392230007065)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(140.32999999997742,2063.799999994842)
+setxy(-76.19378407336873,-198.10392230007065)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(140.82000000001926,2013.2999999944445)
+setxy(-76.19378407336873,-198.10392230007065)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(259.0205293047178,-333.95090171538794)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(144.42999999992878,2018.9999999971064)
+setxy(259.0205293047178,-333.95090171538794)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(143.93999999988694,2069.499999997504)
+setxy(259.0205293047178,-333.95090171538794)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-936.9901639420156,44.62117983554078)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(140.32999999997742,2063.799999994842)
+setxy(-936.9901639420156,44.62117983554078)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(142.26999999991108,1895.1999999998748)
+setxy(-936.9901639420156,44.62117983554078)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-85.62736108620338,-112.88102159545046)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(144.15999999997098,1781.099999995206)
+setxy(-85.62736108620338,-112.88102159545046)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(148.66999999973984,1787.399999997774)
+setxy(-85.62736108620338,-112.88102159545046)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-687.9636333701977,-236.27404480450315)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(152.28000000000463,1791.8999999935181)
+setxy(-687.9636333701977,-236.27404480450315)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(152.28999999976622,1780.7999999988056)
+setxy(-687.9636333701977,-236.27404480450315)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-700.3997409269164,-244.32840921600965)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(154.53999999976986,1783.3999999936623)
+setxy(-700.3997409269164,-244.32840921600965)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(154.0899999998402,1791.799999999455)
+setxy(-700.3997409269164,-244.32840921600965)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-607.7711664832597,-141.41948533274922)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(155.88999999991415,1793.9999999967426)
+setxy(-607.7711664832597,-141.41948533274922)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(155.88999999991415,1802.6999999989357)
+setxy(-607.7711664832597,-141.41948533274922)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-636.8895003381127,-157.2773312094302)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(154.42999999990548,1937.199999993311)
+setxy(-636.8895003381127,-157.2773312094302)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(154.41999999978862,1949.4999999949414)
+setxy(-636.8895003381127,-157.2773312094302)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-314.6991661356941,-203.6033579576884)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(146.7500000000399,1938.099999996723)
+setxy(-314.6991661356941,-203.6033579576884)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(146.28999999999337,1947.89999999756)
+setxy(-314.6991661356941,-203.6033579576884)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-363.0996204726749,-265.7828034557345)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(141.77999999986923,1940.5999999975165)
+setxy(-363.0996204726749,-265.7828034557345)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(142.26999999991108,1895.1999999998748)
+setxy(-363.0996204726749,-265.7828034557345)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-76.23830172329163,-6.239484302479388)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(153.45999999993865,2031.9999999998117)
+setxy(-76.23830172329163,-6.239484302479388)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(153.9499999999805,1981.3999999982457)
+setxy(-76.23830172329163,-6.239484302479388)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-96.1323531899523,-277.0974526215306)
+setTrap(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(153.9499999999805,1977.899999999977)
+setxy(-96.1323531899523,-277.0974526215306)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(154.41999999978862,1949.4999999949414)
+setxy(-96.1323531899523,-277.0974526215306)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-152.85905295024435,-239.39529539733408)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(154.42999999990548,1937.199999993311)
+setxy(-152.85905295024435,-239.39529539733408)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(155.88999999991415,1802.6999999989357)
+setxy(-152.85905295024435,-239.39529539733408)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-81.18625708561537,-287.08672723702017)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(155.88999999991415,1793.9999999967426)
+setxy(-81.18625708561537,-287.08672723702017)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(155.88999999991415,1792.4999999934244)
+setxy(-81.18625708561537,-287.08672723702017)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-117.5718918263196,-9.802258744041808)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(156.36999999983914,1761.6999999958693)
+setxy(-117.5718918263196,-9.802258744041808)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(169.4499999999266,1778.9999999990869)
+setxy(-117.5718918263196,-9.802258744041808)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-107.72939903310147,-271.0442927992934)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(168.97000000000162,1819.8999999938792)
+setxy(-107.72939903310147,-271.0442927992934)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(168.48999999972136,1859.0999999972269)
+setxy(-107.72939903310147,-271.0442927992934)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-137.81061816898242,-252.78697101827552)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(166.08999999974117,2050.999999994474)
+setxy(-137.81061816898242,-252.78697101827552)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(153.45999999993865,2031.9999999998117)
+setxy(-137.81061816898242,-252.78697101827552)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-124.28553703505607,-271.4356787424926)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(153.9499999999805,1977.899999999977)
+setxy(-124.28553703505607,-271.4356787424926)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(153.9499999999805,1981.3999999982457)
+setxy(-124.28553703505607,-271.4356787424926)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-87.56185400156293,-282.38118790632416)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(153.45999999993865,2031.9999999998117)
+setxy(-87.56185400156293,-282.38118790632416)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(147.58999999990863,2023.3999999987873)
+setxy(-87.56185400156293,-282.38118790632416)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-141.08405755540306,27.130598256025866)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(144.42999999992878,2018.9999999971064)
+setxy(-141.08405755540306,27.130598256025866)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(140.82000000001926,2013.2999999944445)
+setxy(-141.08405755540306,27.130598256025866)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-119.072202255734,97.97058361359164)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(141.30999999970584,1961.5000000001714)
+setxy(-119.072202255734,97.97058361359164)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(153.9499999999805,1977.899999999977)
+setxy(-119.072202255734,97.97058361359164)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-104.48971650720911,-10.743122498210818)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(258.50999999974533,2178.9999999981546)
+setxy(-104.48971650720911,-10.743122498210818)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(233.24000000002343,2141.2999999981253)
+setxy(-104.48971650720911,-10.743122498210818)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-153.45804379243577,14.203172850884965)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(235.14999999996178,2007.999999996457)
+setxy(-153.45804379243577,14.203172850884965)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(259.969999999754,2044.499999996674)
+setxy(-153.45804379243577,14.203172850884965)
 size=2
+}
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-110.51682187983772,-19.661206252682344)
+setActivefocus(true)
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(258.9999999997872,2124.2999999984136)
+setxy(-110.51682187983772,-19.661206252682344)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(258.50999999974533,2176.299999995024)
+setxy(-110.51682187983772,-19.661206252682344)
 size=2
 }
+setDefaultShape(House, "house")
+createHouses(1){
+setxy(-221.90776580812025,200.56796617236384)
+setActivefocus(true)
+}
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-setxy(258.50999999974533,2178.9999999981546)
+setxy(-221.90776580812025,200.56796617236384)
 size=2
 }
+setDefaultShape(Mosquito, "bug")
 createMosquitos(1){
-	setxy(0.0,0.0)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(31.11999999987347,49.19999999941638)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(32.5600000000037,-43.000000005122274)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(32.10999999971875,-43.700000006197115)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(28.04999999987956,-50.00000000165983)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(27.579999999716165,-24.600000003260902)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(15.84999999977299,-42.600000000447835)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(12.689999999793145,-48.300000003109744)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(0.9599999998499698,-66.00000000389628)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-0.029999999995311555,-3.500000005374204)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(0.0,0.0)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-32.26000000005058,-623.3000000008815)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-31.020000000125947,-718.1000000002769)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-20.41000000012616,-702.3000000003776)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-21.660000000167656,-607.3999999998136)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-32.26000000005058,-623.3000000008815)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(242.5399999999911,-562.0000000021719)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(235.99999999994736,-515.2000000023804)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(244.1999999998501,-384.9000000002434)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(250.73999999989383,-431.70000000003483)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(242.5399999999911,-562.0000000021719)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(183.35999999976593,-553.7000000046532)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(187.37999999984822,-494.70000000439995)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(184.66000000003646,-474.6000000039885)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(180.63999999995417,-533.6000000042418)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(183.35999999976593,-553.7000000046532)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(226.89999999983002,-1387.3000000046432)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(220.21999999992659,-912.7000000006547)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(249.99999999977263,-865.9000000008632)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(254.27999999969586,-1194.500000003984)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(256.2299999997464,-1348.0000000001269)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(226.89999999983002,-1387.3000000046432)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(309.7499999999087,-505.70000000504933)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(312.37999999973454,-521.3000000026113)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(314.3899999997757,-482.5000000039381)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(315.8299999999059,-491.8000000060374)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(321.7199999998144,-387.4000000010369)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(323.7299999998555,-399.30000000509835)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(325.5199999998126,-366.80000000188784)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(331.41999999983796,-401.30000000004884)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(321.58999999971627,-585.2000000032831)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(319.3499999998295,-571.7000000018402)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(314.83999999970536,-656.7000000003986)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(309.06000000001654,-627.7000000025623)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(308.10999999992816,-644.6000000011054)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(302.9599999997856,-613.7000000023818)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(309.7499999999087,-505.70000000504933)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(330.29999999989457,-602.2000000029948)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(337.33999999974174,-542.6000000028353)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(340.40999999973565,-583.900000002302)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(333.38000000000534,-643.5000000024615)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(330.29999999989457,-602.2000000029948)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(334.29999999974314,179.2999999992162)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(321.779999999805,272.6999999964619)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(327.16999999991003,354.999999998995)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(324.26999999977113,376.69999999678794)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(326.07999999996196,404.3999999936432)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(328.87999999999806,383.5999999992623)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(337.63999999969485,517.0999999961623)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(350.2799999999695,422.89999999667316)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(348.7699999997318,399.99999999906777)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(334.29999999974314,179.2999999992162)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(317.40999999989583,2545.5999999977053)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(317.87999999970395,2521.099999995613)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(324.110000000033,2044.6999999990112)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(329.99999999994145,2019.499999995844)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(336.3000000000227,2060.399999997742)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(336.74999999995237,2063.6999999936734)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(343.5399999997202,2038.8999999951807)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(362.02000000002954,2098.19999999894)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(372.8399999999965,2117.2999999947706)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(373.7499999999727,2118.5999999957517)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(373.73999999985585,2123.9999999949077)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(372.7800000000059,2195.6999999943605)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(371.3199999999972,2344.2999999971903)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(368.42999999997517,2581.899999995585)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(367.9499999996949,2621.399999995333)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(363.43999999992604,2614.3999999987955)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(363.90999999973417,2585.6999999973596)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(359.849999999895,2578.799999994885)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(359.3799999997316,2608.0999999962273)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(355.3199999998924,2601.799999993659)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(317.40999999989583,2545.5999999977053)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(261.7499999999495,2077.1999999951163)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(263.1899999997245,1959.4999999981155)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(273.11999999994896,1973.499999998296)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(271.67999999981873,2091.4999999988027)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(261.7499999999495,2077.1999999951163)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-30.590000000074724,1875.3999999958637)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-20.310000000023365,2026.1999999959812)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-21.219999999999573,2040.1999999961618)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-37.92000000011342,2015.799999995238)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-36.95000000014659,1927.5999999948112)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-30.590000000074724,1875.3999999958637)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-50.260000000079685,1605.3999999954272)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-43.11000000001286,1704.1999999989343)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-48.560000000108516,1750.3999999988196)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-44.540000000026225,1800.9999999932802)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-50.90000000009809,1850.6999999985396)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-53.139999999984866,1824.1999999943914)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-60.31000000028541,1756.0000000003129)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-58.48999999997773,1740.899999994383)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-60.730000000219775,1714.2999999961717)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-62.55000000017219,1731.8999999957896)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-63.89999999996121,1718.3000000002835)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-57.99000000017429,1669.699999993668)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-50.260000000079685,1605.3999999954272)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-37.7200000002631,1741.6999999966265)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-29.220000000051982,1863.00000000017)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-30.590000000074724,1875.3999999958637)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-36.95000000014659,1927.5999999948112)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-37.92000000011342,2015.799999995238)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-38.37000000004309,2019.5999999970127)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-51.91000000017709,1995.9999999983324)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-50.9300000000934,1902.7999999963185)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-50.90000000009809,1850.6999999985396)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-44.540000000026225,1800.9999999932802)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(-37.7200000002631,1741.6999999966265)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(139.09999999981437,1899.3999999992184)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(133.22999999978435,1891.199999995763)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(135.12999999996111,1767.6999999949317)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(144.15999999997098,1781.099999995206)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(142.26999999991108,1895.1999999998748)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(139.10999999993123,1890.099999997119)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(139.09999999981437,1899.3999999992184)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(141.30999999970584,1961.5000000001714)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(140.82000000001926,2013.2999999944445)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(136.7599999998248,2007.1999999942136)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(128.18999999986147,1994.5999999961828)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(129.129999999833,1942.8999999959728)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(138.149999999726,1956.7999999949848)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(139.09999999981437,1899.3999999992184)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(139.10999999993123,1890.099999997119)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(142.26999999991108,1895.1999999998748)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(141.77999999986923,1940.5999999975165)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(141.30999999970584,1961.5000000001714)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(59.979999999981715,1987.6999999937084)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(64.06999999981622,1953.6000000002218)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(65.41999999996051,1970.199999995259)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(65.86999999989018,1965.699999999515)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(67.20999999991761,1983.1999999979644)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(61.320000000009145,2012.5999999933697)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(61.320000000009145,2011.699999997063)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(59.979999999981715,1987.6999999937084)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(68.13000000001068,1969.79999999769)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(66.78999999998325,1950.499999999522)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(65.41999999996051,1961.5000000001714)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(57.37999999979593,1847.9999999954089)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(65.5599999998202,1780.7999999988056)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(75.39999999970348,1913.8999999981365)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(68.13000000001068,1969.79999999769)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(74.73999999980663,2191.1999999986165)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(58.03999999969278,2172.6999999955865)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(58.50999999985618,2152.3999999999432)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(59.46999999970615,2068.9999999987663)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(60.41000000003294,2017.2999999985564)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(61.320000000009145,2011.699999997063)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(61.320000000009145,2012.5999999933697)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(67.20999999991761,1983.1999999979644)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(78.09999999999206,1923.9999999953739)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(77.11999999990837,2027.0999999993933)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(74.73999999980663,2191.1999999986165)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(58.50999999985618,2152.3999999999432)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(28.27999999972519,2105.299999996646)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(27.389999999982706,2078.8999999936664)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(52.379999999985216,1883.799999994551)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(56.84999999999718,1953.299999996716)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(55.47999999997444,1965.3999999960092)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(58.60999999995897,2012.399999998138)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(57.66999999998745,2066.4999999979727)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(59.46999999970615,2068.9999999987663)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(58.50999999985618,2152.3999999999432)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(123.06999999971424,2197.2999999988474)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(122.59999999990612,2226.0000000002833)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(116.27999999994643,2215.8999999959406)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(114.01999999982593,2212.999999997578)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(115.43999999972243,2129.599999996401)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(115.90999999988583,2097.9999999966026)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(116.87999999985266,2019.899999993413)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(119.57999999978597,2023.7999999963563)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(119.1299999998563,2029.9999999977558)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(125.43999999969913,2039.1999999986865)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(124.969999999891,2069.699999999841)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(125.86999999975035,2071.599999993623)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(125.39999999994222,2105.299999996646)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(124.48999999996602,2103.7999999933277)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(123.5499999999945,2160.4999999951247)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(124.89999999978352,2162.699999999518)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(124.41999999985853,2199.1999999997347)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(123.06999999971424,2197.2999999988474)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(117.91999999992697,1825.199999998972)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(116.97999999995545,1884.3999999944572)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(115.54999999994209,1975.500000000352)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(114.59999999985371,2046.0999999940555)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(105.11999999991417,2031.4999999939687)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(107.99999999981935,1810.700000000054)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(117.91999999992697,1825.199999998972)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(82.18999999982657,1884.7999999991316)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(84.58999999980676,1695.8999999943103)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(93.16999999988695,1707.6999999972031)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(91.21999999983643,1896.2999999985186)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(82.18999999982657,1884.7999999991316)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(102.65999999994335,1695.59999999791)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(104.91999999970858,1699.0999999961787)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(102.00999999980809,1962.4999999976467)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(90.72999999979459,1946.799999998916)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(94.08999999998002,1683.799999995017)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(102.65999999994335,1695.59999999791)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(131.51999999969632,1768.299999994838)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(129.129999999833,1942.8999999959728)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(128.18999999986147,1994.5999999961828)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(115.54999999994209,1975.500000000352)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(116.97999999995545,1884.3999999944572)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(117.8799999998148,1885.6999999954382)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(119.78999999975315,1750.8999999975572)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(131.51999999969632,1768.299999994838)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(215.8299999997837,1985.699999998758)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(193.2699999997567,1953.299999996716)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(193.75999999979854,1896.7999999972562)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(194.23999999972352,1853.4999999957336)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(208.2299999997872,1871.3999999988573)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(208.25000000002092,1851.2999999984459)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(215.91999999976963,1861.5999999980204)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(215.91999999976963,1861.8000000003576)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(215.91999999976963,1862.099999996758)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(216.3699999996993,1862.499999994327)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(216.3699999996993,1862.7999999978329)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(216.3699999996993,1863.0999999942333)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(216.3699999996993,1863.399999997739)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(216.3699999996993,1863.6999999941395)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(216.81999999998425,1864.2999999940457)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(216.81999999998425,1864.5999999975515)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(216.81999999998425,1865.1999999974578)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(216.81999999998425,1865.4999999938582)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(216.81999999998425,1866.0999999937644)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(216.81999999998425,1866.6999999936706)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.26999999991392,1867.2999999935769)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.26999999991392,1867.5999999970827)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.26999999991392,1868.199999996989)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.26999999991392,1869.0999999932956)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.26999999991392,1869.7000000003072)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.26999999991392,1870.3000000002135)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.7199999998436,1870.9999999941829)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.7199999998436,1871.599999994089)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.7199999998436,1872.4999999975012)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.7199999998436,1873.0999999974074)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.7199999998436,1873.999999993714)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.7199999998436,1874.5999999936203)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.7199999998436,1875.4999999970323)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.16999999977327,1876.399999993339)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.16999999977327,1877.299999996751)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.16999999977327,1877.8999999966572)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.16999999977327,1878.8000000000693)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.16999999977327,1879.699999996376)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.16999999977327,1880.599999999788)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.16000000001168,1881.4999999960946)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.16000000001168,1882.3999999995067)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.16000000001168,1883.2999999958133)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.16000000001168,1884.1999999992254)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.60999999994135,1885.099999995532)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.60999999994135,1885.999999998944)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.60999999994135,1887.1999999987565)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.60999999994135,1888.0999999950632)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.60999999994135,1888.9999999984752)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.60999999994135,1889.8999999947819)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.60999999994135,1891.0999999945943)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.60999999994135,1891.9999999980064)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.60999999994135,1892.899999994313)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.60999999994135,1894.0999999941255)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.60999999994135,1894.9999999975375)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.60999999994135,1895.8999999938442)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.5999999998245,1897.0999999936566)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.5999999998245,1897.9999999970687)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.5999999998245,1898.8999999933753)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(218.5999999998245,1900.1000000002932)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(217.62999999985766,1987.9999999972142)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(215.8299999997837,1985.699999998758)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(191.35999999981834,2088.6999999945033)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(195.86999999994248,2095.09999999824)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(195.39999999977908,2127.599999994345)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(197.19999999985305,2130.1999999963073)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(197.65999999989958,2113.5000000001014)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(198.5699999998758,2114.699999999914)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(205.33999999976515,2124.599999994814)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(204.85999999984017,2152.3999999999432)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(204.85999999984017,2157.0999999980245)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(211.62999999972953,2166.699999996524)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(210.17999999983772,2298.499999994874)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(208.37000000000216,2296.2999999975864)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(207.87999999996032,2353.3999999969524)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(192.52999999999076,2331.6999999991594)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(188.4699999997963,2325.700000000097)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(190.8699999997765,2137.399999995182)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(190.87999999989336,2129.899999999907)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(191.35999999981834,2088.6999999945033)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(195.86999999994248,2095.09999999824)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(191.35999999981834,2088.6999999945033)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(191.83999999974333,2052.499999997792)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(192.80999999971016,1966.099999997084)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(197.3199999998343,1972.199999997315)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(209.9499999999921,1989.9999999992701)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(213.10999999997193,1994.4999999950142)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(212.63999999980854,2015.9999999975753)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(211.20999999979517,2116.99999999837)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(195.86999999994248,2095.09999999824)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(193.2699999997567,1953.299999996716)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(192.80999999971016,1966.099999997084)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(191.83999999974333,2052.499999997792)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(191.35999999981834,2088.6999999945033)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(178.2699999999693,2069.3999999963353)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(178.74999999989427,2033.7999999995304)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(180.67999999971107,1877.1999999955824)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(186.5399999999795,1885.6999999954382)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(184.16999999999462,2041.69999999948)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(185.9699999997133,2044.2999999943368)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(187.88999999976852,1888.1999999962318)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(193.75999999979854,1896.7999999972562)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(193.2699999997567,1953.299999996716)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(139.85999999981402,2087.099999997122)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(135.79999999997483,2081.0999999980595)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(136.7599999998248,2007.1999999942136)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(140.82000000001926,2013.2999999944445)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(140.32999999997742,2063.799999994842)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(139.85999999981402,2087.099999997122)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(162.26999999986447,2326.799999998741)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(150.08999999999162,2306.6999999983295)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(152.02999999992528,2133.8999999969133)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(152.02999999992528,2130.299999997476)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(153.45999999993865,2031.9999999998117)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(166.08999999974117,2050.999999994474)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(162.74000000002786,2307.9999999993106)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(162.26999999986447,2326.799999998741)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(168.13999999989448,2334.4999999963534)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(168.15000000001135,2315.89999999926)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(162.74000000002786,2307.9999999993106)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(166.08999999974117,2050.999999994474)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(178.2699999999693,2069.3999999963353)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(177.77999999992744,2119.2999999968265)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(174.9199999999007,2325.7999999941603)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(174.90999999978385,2343.3999999937782)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(174.43999999997573,2360.7999999981644)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(167.6699999997311,2351.499999996065)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(168.13999999989448,2334.4999999963534)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(152.02999999992528,2130.299999997476)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(146.15999999989526,2121.400000000051)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(147.58999999990863,2023.3999999987873)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(153.45999999993865,2031.9999999998117)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(152.02999999992528,2130.299999997476)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(174.90999999978385,2343.3999999937782)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(174.9199999999007,2325.7999999941603)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(177.77999999992744,2119.2999999968265)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(178.2699999999693,2069.3999999963353)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(191.35999999981834,2088.6999999945033)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(190.87999999989336,2129.899999999907)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(190.8699999997765,2137.399999995182)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(188.4699999997963,2325.700000000097)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(187.98999999987132,2360.999999993396)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(183.47999999974718,2354.599999996765)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(185.9099999997227,2130.699999995045)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(182.29999999981317,2125.5999999993946)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(179.419999999908,2349.799999997515)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(174.90999999978385,2343.3999999937782)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(168.48999999972136,1859.0999999972269)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(180.67999999971107,1877.1999999955824)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(178.74999999989427,2033.7999999995304)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(178.2699999999693,2069.3999999963353)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(166.08999999974117,2050.999999994474)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(168.48999999972136,1859.0999999972269)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(140.32999999997742,2063.799999994842)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(140.82000000001926,2013.2999999944445)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(144.42999999992878,2018.9999999971064)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(143.93999999988694,2069.499999997504)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(140.32999999997742,2063.799999994842)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(142.26999999991108,1895.1999999998748)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(144.15999999997098,1781.099999995206)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(148.66999999973984,1787.399999997774)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(152.28000000000463,1791.8999999935181)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(152.28999999976622,1780.7999999988056)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(154.53999999976986,1783.3999999936623)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(154.0899999998402,1791.799999999455)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(155.88999999991415,1793.9999999967426)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(155.88999999991415,1802.6999999989357)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(154.42999999990548,1937.199999993311)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(154.41999999978862,1949.4999999949414)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(146.7500000000399,1938.099999996723)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(146.28999999999337,1947.89999999756)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(141.77999999986923,1940.5999999975165)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(142.26999999991108,1895.1999999998748)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(153.45999999993865,2031.9999999998117)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(153.9499999999805,1981.3999999982457)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(153.9499999999805,1977.899999999977)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(154.41999999978862,1949.4999999949414)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(154.42999999990548,1937.199999993311)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(155.88999999991415,1802.6999999989357)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(155.88999999991415,1793.9999999967426)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(155.88999999991415,1792.4999999934244)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(156.36999999983914,1761.6999999958693)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(169.4499999999266,1778.9999999990869)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(168.97000000000162,1819.8999999938792)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(168.48999999972136,1859.0999999972269)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(166.08999999974117,2050.999999994474)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(153.45999999993865,2031.9999999998117)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(153.9499999999805,1977.899999999977)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(153.9499999999805,1981.3999999982457)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(153.45999999993865,2031.9999999998117)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(147.58999999990863,2023.3999999987873)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(144.42999999992878,2018.9999999971064)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(140.82000000001926,2013.2999999944445)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(141.30999999970584,1961.5000000001714)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(153.9499999999805,1977.899999999977)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(258.50999999974533,2178.9999999981546)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(233.24000000002343,2141.2999999981253)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(235.14999999996178,2007.999999996457)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(259.969999999754,2044.499999996674)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(258.9999999997872,2124.2999999984136)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(258.50999999974533,2176.299999995024)
-	size=2
-	}
-	createMosquitos(1){
-	setxy(258.50999999974533,2178.9999999981546)
-	size=2
-	}
-	createMosquitos(1){
-		setxy(0.0,0.0)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(31.11999999987347,49.19999999941638)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(32.5600000000037,-43.000000005122274)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(32.10999999971875,-43.700000006197115)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(28.04999999987956,-50.00000000165983)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(27.579999999716165,-24.600000003260902)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(15.84999999977299,-42.600000000447835)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(12.689999999793145,-48.300000003109744)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(0.9599999998499698,-66.00000000389628)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-0.029999999995311555,-3.500000005374204)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(0.0,0.0)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-32.26000000005058,-623.3000000008815)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-31.020000000125947,-718.1000000002769)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-20.41000000012616,-702.3000000003776)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-21.660000000167656,-607.3999999998136)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-32.26000000005058,-623.3000000008815)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(242.5399999999911,-562.0000000021719)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(235.99999999994736,-515.2000000023804)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(244.1999999998501,-384.9000000002434)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(250.73999999989383,-431.70000000003483)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(242.5399999999911,-562.0000000021719)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(183.35999999976593,-553.7000000046532)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(187.37999999984822,-494.70000000439995)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(184.66000000003646,-474.6000000039885)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(180.63999999995417,-533.6000000042418)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(183.35999999976593,-553.7000000046532)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(226.89999999983002,-1387.3000000046432)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(220.21999999992659,-912.7000000006547)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(249.99999999977263,-865.9000000008632)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(254.27999999969586,-1194.500000003984)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(256.2299999997464,-1348.0000000001269)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(226.89999999983002,-1387.3000000046432)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(309.7499999999087,-505.70000000504933)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(312.37999999973454,-521.3000000026113)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(314.3899999997757,-482.5000000039381)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(315.8299999999059,-491.8000000060374)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(321.7199999998144,-387.4000000010369)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(323.7299999998555,-399.30000000509835)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(325.5199999998126,-366.80000000188784)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(331.41999999983796,-401.30000000004884)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(321.58999999971627,-585.2000000032831)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(319.3499999998295,-571.7000000018402)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(314.83999999970536,-656.7000000003986)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(309.06000000001654,-627.7000000025623)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(308.10999999992816,-644.6000000011054)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(302.9599999997856,-613.7000000023818)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(309.7499999999087,-505.70000000504933)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(330.29999999989457,-602.2000000029948)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(337.33999999974174,-542.6000000028353)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(340.40999999973565,-583.900000002302)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(333.38000000000534,-643.5000000024615)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(330.29999999989457,-602.2000000029948)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(334.29999999974314,179.2999999992162)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(321.779999999805,272.6999999964619)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(327.16999999991003,354.999999998995)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(324.26999999977113,376.69999999678794)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(326.07999999996196,404.3999999936432)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(328.87999999999806,383.5999999992623)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(337.63999999969485,517.0999999961623)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(350.2799999999695,422.89999999667316)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(348.7699999997318,399.99999999906777)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(334.29999999974314,179.2999999992162)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(317.40999999989583,2545.5999999977053)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(317.87999999970395,2521.099999995613)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(324.110000000033,2044.6999999990112)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(329.99999999994145,2019.499999995844)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(336.3000000000227,2060.399999997742)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(336.74999999995237,2063.6999999936734)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(343.5399999997202,2038.8999999951807)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(362.02000000002954,2098.19999999894)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(372.8399999999965,2117.2999999947706)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(373.7499999999727,2118.5999999957517)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(373.73999999985585,2123.9999999949077)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(372.7800000000059,2195.6999999943605)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(371.3199999999972,2344.2999999971903)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(368.42999999997517,2581.899999995585)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(367.9499999996949,2621.399999995333)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(363.43999999992604,2614.3999999987955)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(363.90999999973417,2585.6999999973596)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(359.849999999895,2578.799999994885)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(359.3799999997316,2608.0999999962273)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(355.3199999998924,2601.799999993659)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(317.40999999989583,2545.5999999977053)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(261.7499999999495,2077.1999999951163)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(263.1899999997245,1959.4999999981155)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(273.11999999994896,1973.499999998296)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(271.67999999981873,2091.4999999988027)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(261.7499999999495,2077.1999999951163)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-30.590000000074724,1875.3999999958637)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-20.310000000023365,2026.1999999959812)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-21.219999999999573,2040.1999999961618)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-37.92000000011342,2015.799999995238)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-36.95000000014659,1927.5999999948112)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-30.590000000074724,1875.3999999958637)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-50.260000000079685,1605.3999999954272)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-43.11000000001286,1704.1999999989343)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-48.560000000108516,1750.3999999988196)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-44.540000000026225,1800.9999999932802)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-50.90000000009809,1850.6999999985396)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-53.139999999984866,1824.1999999943914)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-60.31000000028541,1756.0000000003129)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-58.48999999997773,1740.899999994383)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-60.730000000219775,1714.2999999961717)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-62.55000000017219,1731.8999999957896)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-63.89999999996121,1718.3000000002835)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-57.99000000017429,1669.699999993668)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-50.260000000079685,1605.3999999954272)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-37.7200000002631,1741.6999999966265)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-29.220000000051982,1863.00000000017)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-30.590000000074724,1875.3999999958637)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-36.95000000014659,1927.5999999948112)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-37.92000000011342,2015.799999995238)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-38.37000000004309,2019.5999999970127)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-51.91000000017709,1995.9999999983324)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-50.9300000000934,1902.7999999963185)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-50.90000000009809,1850.6999999985396)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-44.540000000026225,1800.9999999932802)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(-37.7200000002631,1741.6999999966265)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(139.09999999981437,1899.3999999992184)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(133.22999999978435,1891.199999995763)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(135.12999999996111,1767.6999999949317)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(144.15999999997098,1781.099999995206)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(142.26999999991108,1895.1999999998748)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(139.10999999993123,1890.099999997119)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(139.09999999981437,1899.3999999992184)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(141.30999999970584,1961.5000000001714)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(140.82000000001926,2013.2999999944445)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(136.7599999998248,2007.1999999942136)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(128.18999999986147,1994.5999999961828)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(129.129999999833,1942.8999999959728)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(138.149999999726,1956.7999999949848)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(139.09999999981437,1899.3999999992184)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(139.10999999993123,1890.099999997119)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(142.26999999991108,1895.1999999998748)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(141.77999999986923,1940.5999999975165)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(141.30999999970584,1961.5000000001714)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(59.979999999981715,1987.6999999937084)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(64.06999999981622,1953.6000000002218)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(65.41999999996051,1970.199999995259)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(65.86999999989018,1965.699999999515)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(67.20999999991761,1983.1999999979644)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(61.320000000009145,2012.5999999933697)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(61.320000000009145,2011.699999997063)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(59.979999999981715,1987.6999999937084)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(68.13000000001068,1969.79999999769)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(66.78999999998325,1950.499999999522)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(65.41999999996051,1961.5000000001714)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(57.37999999979593,1847.9999999954089)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(65.5599999998202,1780.7999999988056)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(75.39999999970348,1913.8999999981365)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(68.13000000001068,1969.79999999769)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(74.73999999980663,2191.1999999986165)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(58.03999999969278,2172.6999999955865)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(58.50999999985618,2152.3999999999432)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(59.46999999970615,2068.9999999987663)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(60.41000000003294,2017.2999999985564)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(61.320000000009145,2011.699999997063)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(61.320000000009145,2012.5999999933697)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(67.20999999991761,1983.1999999979644)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(78.09999999999206,1923.9999999953739)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(77.11999999990837,2027.0999999993933)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(74.73999999980663,2191.1999999986165)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(58.50999999985618,2152.3999999999432)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(28.27999999972519,2105.299999996646)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(27.389999999982706,2078.8999999936664)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(52.379999999985216,1883.799999994551)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(56.84999999999718,1953.299999996716)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(55.47999999997444,1965.3999999960092)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(58.60999999995897,2012.399999998138)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(57.66999999998745,2066.4999999979727)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(59.46999999970615,2068.9999999987663)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(58.50999999985618,2152.3999999999432)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(123.06999999971424,2197.2999999988474)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(122.59999999990612,2226.0000000002833)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(116.27999999994643,2215.8999999959406)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(114.01999999982593,2212.999999997578)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(115.43999999972243,2129.599999996401)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(115.90999999988583,2097.9999999966026)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(116.87999999985266,2019.899999993413)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(119.57999999978597,2023.7999999963563)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(119.1299999998563,2029.9999999977558)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(125.43999999969913,2039.1999999986865)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(124.969999999891,2069.699999999841)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(125.86999999975035,2071.599999993623)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(125.39999999994222,2105.299999996646)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(124.48999999996602,2103.7999999933277)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(123.5499999999945,2160.4999999951247)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(124.89999999978352,2162.699999999518)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(124.41999999985853,2199.1999999997347)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(123.06999999971424,2197.2999999988474)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(117.91999999992697,1825.199999998972)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(116.97999999995545,1884.3999999944572)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(115.54999999994209,1975.500000000352)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(114.59999999985371,2046.0999999940555)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(105.11999999991417,2031.4999999939687)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(107.99999999981935,1810.700000000054)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(117.91999999992697,1825.199999998972)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(82.18999999982657,1884.7999999991316)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(84.58999999980676,1695.8999999943103)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(93.16999999988695,1707.6999999972031)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(91.21999999983643,1896.2999999985186)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(82.18999999982657,1884.7999999991316)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(102.65999999994335,1695.59999999791)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(104.91999999970858,1699.0999999961787)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(102.00999999980809,1962.4999999976467)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(90.72999999979459,1946.799999998916)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(94.08999999998002,1683.799999995017)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(102.65999999994335,1695.59999999791)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(131.51999999969632,1768.299999994838)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(129.129999999833,1942.8999999959728)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(128.18999999986147,1994.5999999961828)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(115.54999999994209,1975.500000000352)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(116.97999999995545,1884.3999999944572)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(117.8799999998148,1885.6999999954382)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(119.78999999975315,1750.8999999975572)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(131.51999999969632,1768.299999994838)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(215.8299999997837,1985.699999998758)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(193.2699999997567,1953.299999996716)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(193.75999999979854,1896.7999999972562)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(194.23999999972352,1853.4999999957336)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(208.2299999997872,1871.3999999988573)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(208.25000000002092,1851.2999999984459)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(215.91999999976963,1861.5999999980204)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(215.91999999976963,1861.8000000003576)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(215.91999999976963,1862.099999996758)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(216.3699999996993,1862.499999994327)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(216.3699999996993,1862.7999999978329)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(216.3699999996993,1863.0999999942333)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(216.3699999996993,1863.399999997739)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(216.3699999996993,1863.6999999941395)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(216.81999999998425,1864.2999999940457)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(216.81999999998425,1864.5999999975515)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(216.81999999998425,1865.1999999974578)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(216.81999999998425,1865.4999999938582)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(216.81999999998425,1866.0999999937644)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(216.81999999998425,1866.6999999936706)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.26999999991392,1867.2999999935769)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.26999999991392,1867.5999999970827)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.26999999991392,1868.199999996989)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.26999999991392,1869.0999999932956)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.26999999991392,1869.7000000003072)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.26999999991392,1870.3000000002135)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.7199999998436,1870.9999999941829)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.7199999998436,1871.599999994089)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.7199999998436,1872.4999999975012)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.7199999998436,1873.0999999974074)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.7199999998436,1873.999999993714)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.7199999998436,1874.5999999936203)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.7199999998436,1875.4999999970323)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.16999999977327,1876.399999993339)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.16999999977327,1877.299999996751)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.16999999977327,1877.8999999966572)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.16999999977327,1878.8000000000693)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.16999999977327,1879.699999996376)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.16999999977327,1880.599999999788)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.16000000001168,1881.4999999960946)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.16000000001168,1882.3999999995067)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.16000000001168,1883.2999999958133)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.16000000001168,1884.1999999992254)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.60999999994135,1885.099999995532)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.60999999994135,1885.999999998944)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.60999999994135,1887.1999999987565)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.60999999994135,1888.0999999950632)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.60999999994135,1888.9999999984752)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.60999999994135,1889.8999999947819)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.60999999994135,1891.0999999945943)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.60999999994135,1891.9999999980064)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.60999999994135,1892.899999994313)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.60999999994135,1894.0999999941255)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.60999999994135,1894.9999999975375)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.60999999994135,1895.8999999938442)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.5999999998245,1897.0999999936566)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.5999999998245,1897.9999999970687)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.5999999998245,1898.8999999933753)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(218.5999999998245,1900.1000000002932)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(217.62999999985766,1987.9999999972142)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(215.8299999997837,1985.699999998758)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(191.35999999981834,2088.6999999945033)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(195.86999999994248,2095.09999999824)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(195.39999999977908,2127.599999994345)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(197.19999999985305,2130.1999999963073)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(197.65999999989958,2113.5000000001014)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(198.5699999998758,2114.699999999914)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(205.33999999976515,2124.599999994814)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(204.85999999984017,2152.3999999999432)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(204.85999999984017,2157.0999999980245)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(211.62999999972953,2166.699999996524)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(210.17999999983772,2298.499999994874)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(208.37000000000216,2296.2999999975864)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(207.87999999996032,2353.3999999969524)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(192.52999999999076,2331.6999999991594)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(188.4699999997963,2325.700000000097)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(190.8699999997765,2137.399999995182)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(190.87999999989336,2129.899999999907)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(191.35999999981834,2088.6999999945033)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(195.86999999994248,2095.09999999824)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(191.35999999981834,2088.6999999945033)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(191.83999999974333,2052.499999997792)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(192.80999999971016,1966.099999997084)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(197.3199999998343,1972.199999997315)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(209.9499999999921,1989.9999999992701)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(213.10999999997193,1994.4999999950142)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(212.63999999980854,2015.9999999975753)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(211.20999999979517,2116.99999999837)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(195.86999999994248,2095.09999999824)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(193.2699999997567,1953.299999996716)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(192.80999999971016,1966.099999997084)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(191.83999999974333,2052.499999997792)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(191.35999999981834,2088.6999999945033)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(178.2699999999693,2069.3999999963353)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(178.74999999989427,2033.7999999995304)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(180.67999999971107,1877.1999999955824)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(186.5399999999795,1885.6999999954382)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(184.16999999999462,2041.69999999948)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(185.9699999997133,2044.2999999943368)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(187.88999999976852,1888.1999999962318)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(193.75999999979854,1896.7999999972562)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(193.2699999997567,1953.299999996716)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(139.85999999981402,2087.099999997122)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(135.79999999997483,2081.0999999980595)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(136.7599999998248,2007.1999999942136)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(140.82000000001926,2013.2999999944445)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(140.32999999997742,2063.799999994842)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(139.85999999981402,2087.099999997122)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(162.26999999986447,2326.799999998741)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(150.08999999999162,2306.6999999983295)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(152.02999999992528,2133.8999999969133)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(152.02999999992528,2130.299999997476)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(153.45999999993865,2031.9999999998117)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(166.08999999974117,2050.999999994474)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(162.74000000002786,2307.9999999993106)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(162.26999999986447,2326.799999998741)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(168.13999999989448,2334.4999999963534)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(168.15000000001135,2315.89999999926)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(162.74000000002786,2307.9999999993106)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(166.08999999974117,2050.999999994474)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(178.2699999999693,2069.3999999963353)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(177.77999999992744,2119.2999999968265)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(174.9199999999007,2325.7999999941603)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(174.90999999978385,2343.3999999937782)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(174.43999999997573,2360.7999999981644)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(167.6699999997311,2351.499999996065)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(168.13999999989448,2334.4999999963534)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(152.02999999992528,2130.299999997476)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(146.15999999989526,2121.400000000051)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(147.58999999990863,2023.3999999987873)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(153.45999999993865,2031.9999999998117)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(152.02999999992528,2130.299999997476)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(174.90999999978385,2343.3999999937782)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(174.9199999999007,2325.7999999941603)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(177.77999999992744,2119.2999999968265)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(178.2699999999693,2069.3999999963353)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(191.35999999981834,2088.6999999945033)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(190.87999999989336,2129.899999999907)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(190.8699999997765,2137.399999995182)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(188.4699999997963,2325.700000000097)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(187.98999999987132,2360.999999993396)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(183.47999999974718,2354.599999996765)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(185.9099999997227,2130.699999995045)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(182.29999999981317,2125.5999999993946)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(179.419999999908,2349.799999997515)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(174.90999999978385,2343.3999999937782)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(168.48999999972136,1859.0999999972269)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(180.67999999971107,1877.1999999955824)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(178.74999999989427,2033.7999999995304)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(178.2699999999693,2069.3999999963353)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(166.08999999974117,2050.999999994474)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(168.48999999972136,1859.0999999972269)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(140.32999999997742,2063.799999994842)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(140.82000000001926,2013.2999999944445)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(144.42999999992878,2018.9999999971064)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(143.93999999988694,2069.499999997504)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(140.32999999997742,2063.799999994842)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(142.26999999991108,1895.1999999998748)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(144.15999999997098,1781.099999995206)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(148.66999999973984,1787.399999997774)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(152.28000000000463,1791.8999999935181)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(152.28999999976622,1780.7999999988056)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(154.53999999976986,1783.3999999936623)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(154.0899999998402,1791.799999999455)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(155.88999999991415,1793.9999999967426)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(155.88999999991415,1802.6999999989357)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(154.42999999990548,1937.199999993311)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(154.41999999978862,1949.4999999949414)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(146.7500000000399,1938.099999996723)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(146.28999999999337,1947.89999999756)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(141.77999999986923,1940.5999999975165)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(142.26999999991108,1895.1999999998748)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(153.45999999993865,2031.9999999998117)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(153.9499999999805,1981.3999999982457)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(153.9499999999805,1977.899999999977)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(154.41999999978862,1949.4999999949414)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(154.42999999990548,1937.199999993311)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(155.88999999991415,1802.6999999989357)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(155.88999999991415,1793.9999999967426)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(155.88999999991415,1792.4999999934244)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(156.36999999983914,1761.6999999958693)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(169.4499999999266,1778.9999999990869)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(168.97000000000162,1819.8999999938792)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(168.48999999972136,1859.0999999972269)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(166.08999999974117,2050.999999994474)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(153.45999999993865,2031.9999999998117)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(153.9499999999805,1977.899999999977)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(153.9499999999805,1981.3999999982457)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(153.45999999993865,2031.9999999998117)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(147.58999999990863,2023.3999999987873)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(144.42999999992878,2018.9999999971064)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(140.82000000001926,2013.2999999944445)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(141.30999999970584,1961.5000000001714)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(153.9499999999805,1977.899999999977)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(258.50999999974533,2178.9999999981546)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(233.24000000002343,2141.2999999981253)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(235.14999999996178,2007.999999996457)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(259.969999999754,2044.499999996674)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(258.9999999997872,2124.2999999984136)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(258.50999999974533,2176.299999995024)
-		size=2
-		}
-		createMosquitos(1){
-		setxy(258.50999999974533,2178.9999999981546)
-		size=2
-		}
-
-	/*createMosquitos(numMosquitos){
-		setxy(randomXcor(),randomYcor())
-
-	}*/
+setxy(-221.90776580812025,200.56796617236384)
+size=2
+}
 	setDefaultShape(Eggs, "circle")
 	setDefaultShape(Agents, "person")
 }
@@ -6712,22 +7168,30 @@ createMosquitos(1){
 def go(){
 	
 	contador++
-	println(contador);
+	println(contador)
 	def act = System.currentTimeMillis();
-	println(act-time)
-	ask (mosquitos()){
-		step()
-	}
 	
 	ask (eggss()){
 		step()
 	}
 	
+	
+	ask (mosquitos()){
+		step()
+	}
+
+
 	ask (agentss()){
 		step()
 	}
 	
+	print("Time: ")
+	println(act-time)
+	print("Mosquitos: ")
+	println(mosquitos().size())
 	
+	print("Eggs: ")
+	println(eggss().size())
 	// Ends the simulation when
 	// no mosquitos or eggs are left
 	
